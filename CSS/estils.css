@@ -280,8 +280,6 @@ footer {
 /* Footer-movil: només visible a la versió mòbil */
 .footer-movil {
 	display: none;
-<<<<<<< HEAD
-=======
 	/* Amagat per defecte */
 }
 
@@ -409,5 +407,4 @@ footer {
 		right: 0;
 		/* Ara es mostrarà des de la dreta */
 	}
->>>>>>> parent of 81e27a8 (Eliminades redundancies i optimitzada la sobrecarrega en versió movil)
 }
