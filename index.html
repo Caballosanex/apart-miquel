@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="CSS/estils.css">
 	<link rel="shortcut icon" href="media/casa.ico">
 	<title>Apartaments J.Miquel | Lloguer Apartaments Llivia</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
 </head>
 
 <body>
@@ -31,31 +32,43 @@
 			</a>
 		</div>
 
-		<nav class="idioma">
-			<img src="media/castella.png" alt="Idioma Castellà">
-		</nav>
+		<div class="menu">
+			<input type="checkbox" id="menu-toggle" class="menu-toggle">
+			<label for="menu-toggle" class="menu-icon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+			<nav class="menu-items">
+				<a href="#intro">Inici</a>
+				<a href="#testimonials">Opinions</a>
+				<a href="apartaments.html">Apartaments</a>
+				<a href="activitats.html">Activitats</a>
+				<a href="localitzacio.html">On som</a>
+				<a href="contacte.html">Contacte</a>
+			</nav>
+		</div>
 	</header>
 	<!-- Background Video Section -->
-	<section class="video-background">
+	<section class="video-background" id="intro">
 		<video autoplay muted loop class="video-element">
 			<source src="media/video.mp4" type="video/mp4">
 			El teu navegador no suporta el vídeo HTML5.
 		</video>
 		<div class="video-overlay">
 			<h1>Viu la Cerdanya</h1>
-			<p>Descobreix els nostres apartaments a Llivia</p>
+			<p>Descobreix els nostres apartaments a Llívia</p>
 		</div>
 	</section>
 	<!-- Intro Section -->
 	<main>
 		<section class="intro">
 			<h1>APARTAMENTS J. MIQUEL</h1>
-			<h2>Lloguer d'Apartaments a Llivia</h2>
+			<h2>Lloguer d'Apartaments a Llívia</h2>
 			<p><strong>Lloguer d’apartaments en una ubicació privilegiada a la Cerdanya. Gaudeix d’una estada envoltat
-					de natura i
-					aventures. Tant si busques un cap de setmana relaxant, una escapada curta, o un lloguer de
-					temporada, t’oferim l’espai ideal per desconnectar i
-					viure moments únics.</p></strong><br>
+					de natura i aventures. Tant si busques un cap de setmana relaxant, una escapada curta, o un lloguer
+					de
+					temporada, t’oferim l’espai ideal per desconnectar i viure moments únics.</p></strong><br>
 			<div class="gallery-container">
 				<img src="media/lliviaintro1800500.jpg" alt="Imatge 1">
 				<img src="media/lliviaintro2800500.jpg" alt="Imatge 2">
@@ -63,8 +76,8 @@
 			</div>
 		</section>
 		<!-- Testimonials Section -->
-		<section class="testimonials">
-			<h2>Què diuen els nostres clients</h2>
+		<section class="testimonials" id="testimonials">
+			<h2>Què diuen els nostres clients?</h2>
 			<div class="testimonials-container">
 				<div class="testimonial">
 					<p>"Un lloc perfecte per a desconnectar. Repetirem segur!"</p>
