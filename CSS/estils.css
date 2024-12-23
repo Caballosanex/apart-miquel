@@ -63,11 +63,12 @@ header .idioma img {
 	cursor: pointer;
 }
 
-.intro, .gallery {
+.intro,
+.gallery {
 	background-image: url('../media/fons_apartament.png');
 	/* Canvia pel camí real de la teva imatge */
 	background-size: 80%;
-	background-attachment:local;
+	background-attachment: local;
 	/* Opcional: Manté el fons fix mentre es fa scroll */
 	background-position: center;
 	color: #fff;
@@ -244,13 +245,21 @@ header .idioma img {
 	font-size: 1.2rem;
 }
 
-/* Footer */
+/* Footer general: es veu sempre */
 footer {
 	text-align: center;
 	padding: 1rem;
 	background-color: #202929;
 	color: #fff;
 	font-size: 0.9rem;
+	display: block;
+	/* Assegura que sempre sigui visible */
+}
+
+/* Footer-movil: només visible a la versió mòbil */
+.footer-movil {
+	display: none;
+	/* Amagat per defecte */
 }
 
 /* Responsiu */
@@ -270,5 +279,41 @@ footer {
 	.cta-button {
 		font-size: 1rem;
 		padding: 0.8rem 1.5rem;
+	}
+
+	/* Footer-movil visible només en dispositius mòbils */
+	.footer-movil {
+		display: block;
+		background-color: #202929;
+		padding: 1rem;
+		text-align: center;
+		position: sticky;
+		bottom: 0;
+		z-index: 1000;
+		/* Manté el footer per sobre d'altres elements */
+	}
+
+	.footer-movil .footer-socials-movil {
+		display: flex;
+		justify-content: center;
+		gap: 1rem;
+	}
+
+	.footer-movil .social-btn img {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		transition: transform 0.3s, box-shadow 0.3s;
+	}
+
+	.footer-movil .social-btn img:hover {
+		transform: scale(1.1);
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+	}
+
+	/* Amaga les xarxes socials del header */
+	header .social-buttons {
+		display: none;
 	}
 }
