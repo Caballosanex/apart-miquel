@@ -1,4 +1,5 @@
 /* estils-apartaments.css */
+
 .apartments-main {
 	padding: 2rem;
 	background-image: url('../media/fons_apartament.png');
@@ -53,7 +54,7 @@
 	transform: scale(1.1);
 }
 
-.more-info-btn {
+.apartment-image .more-info-btn {
 	position: absolute;
 	bottom: 1rem;
 	left: 50%;
@@ -68,7 +69,7 @@
 	transition: opacity 0.3s ease;
 }
 
-.apartment-card:hover .more-info-btn {
+.apartment-card:hover .apartment-image .more-info-btn {
 	opacity: 1;
 }
 
@@ -94,8 +95,13 @@
 	margin: 0;
 }
 
+/* Amaguem el botó del content en escriptori */
+.apartment-content .more-info-btn {
+	display: none;
+}
+
 /* Responsive adjustments */
-@media (max-width: 842px) {
+@media (max-width: 1100px) {
 	.apartments-main {
 		padding: 1rem;
 	}
@@ -108,12 +114,42 @@
 		grid-template-columns: 1fr;
 	}
 
-	.more-info-btn {
-		opacity: 1;
+	.apartment-image {
 		position: relative;
-		display: inline-block;
-		margin-top: 1rem;
+		height: 200px;
+		overflow: hidden;
+	}
+
+	.apartment-image img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	/* Amaguem el botó de la imatge en mòbil */
+	.apartment-image .more-info-btn {
+		display: none;
+	}
+
+	.apartment-content {
+		position: relative;
+		padding: 1.5rem;
+	}
+
+	/* Mostrem el botó del content en mòbil */
+	.apartment-content .more-info-btn {
+		display: block;
+		opacity: 1;
+		position: static;
+		width: 100%;
+		text-align: center;
+		margin: 1rem 0 0;
+		padding: 0.75rem 0;
+		background-color: #ff8c00;
+		border-radius: 4px;
 		transform: none;
-		left: 0;
+		color: white;
+		text-decoration: none;
+		font-weight: 500;
 	}
 }
