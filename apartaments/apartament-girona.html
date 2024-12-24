@@ -4,8 +4,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../CSS/estils.css">
-	<link rel="stylesheet" href="../CSS/estils-apartament-individual.css">
+	<link rel="stylesheet" href='../CSS/estils.css'>
+	<link rel="stylesheet" href='../CSS/estils-apartament-individual.css'>
+	<link rel="stylesheet" href='../CSS/estils-movils.css'
 	<link rel="shortcut icon" href="../media/casa.ico">
 	<title>Apartament Girona | Apartaments J.Miquel Llívia</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
@@ -43,29 +44,104 @@
 			<p class="description">
 				Planta Baixa Dúplex. Totalment reformat. Capacitat per a 5 persones,
 				1 Bany i 1 Lavabo i 2 habitacións. Pàrquing i traster.
-				Zona comunitària amb piscina, tenis i terrassa particular. Molt assoleiat.</p>
+				Zona comunitària amb piscina, tenis i terrassa particular. Molt assoleiat.
+			</p>
 		</section>
 
-		<!-- Footer -->
-		<footer>
-			<p>&copy; 2024 Apartaments J. Miquel. Tots els drets reservats.</p>
-		</footer>
+		<!-- Galeria d'imatges -->
+		<section class="image-gallery">
+			<!-- Radio buttons per controlar el carrusel -->
+			<input type="radio" name="gallery" id="img1" checked>
+			<input type="radio" name="gallery" id="img2">
+			<input type="radio" name="gallery" id="img3">
+			<input type="radio" name="gallery" id="img4">
+			<input type="radio" name="gallery" id="img5">
+			<input type="radio" name="gallery" id="img6">
+			<input type="radio" name="gallery" id="img7">
+			<input type="radio" name="gallery" id="img8">
+			<input type="radio" name="gallery" id="img9">
+			<input type="radio" name="gallery" id="img10">
+			<input type="radio" name="gallery" id="img11">
 
-		<!-- Footer mòbil -->
-		<footer class="footer-movil">
-			<div class="footer-socials-movil">
-				<a href="https://www.facebook.com/people/Apartaments-lloguer-jmiquel-llivia/100057320145535/"
-					target="_blank" class="social-btn">
-					<img src="../media/facebook.png" alt="Facebook">
-				</a>
-				<a href="https://www.instagram.com/apartamentsjmiquel/" target="_blank" class="social-btn">
-					<img src="../media/instagram.png" alt="Instagram">
-				</a>
-				<a href="https://x.com/apartjmiquel" target="_blank" class="social-btn">
-					<img src="../media/twitter.png" alt="Twitter">
-				</a>
+			<!-- Contenidor principal de la galeria -->
+			<div class="gallery-container">
+				<!-- Imatges principals -->
+				<div class="gallery-main">
+					<div class="main-img">
+						<img src="../media/apartaments/apt-girona/cuina.jpg" alt="Cuina equipada">
+						<img src="../media/apartaments/apt-girona/exteriorantiga.jpg" alt="Vista exterior antiga">
+						<img src="../media/apartaments/apt-girona/habitacio1.jpg" alt="Habitació principal">
+						<img src="../media/apartaments/apt-girona/habitacio2.jpg" alt="Segona habitació">
+						<img src="../media/apartaments/apt-girona/jardi.jpg" alt="Jardí">
+						<img src="../media/apartaments/apt-girona/lavabo.jpg" alt="Lavabo">
+						<img src="../media/apartaments/apt-girona/lavabo2.jpg" alt="Segon lavabo">
+						<img src="../media/apartaments/apt-girona/menjador.jpg" alt="Menjador">
+						<img src="../media/apartaments/apt-girona/salamenjador.jpg" alt="Sala menjador">
+						<img src="../media/apartaments/apt-girona/piscina.jpg" alt="Piscina">
+						<img src="../media/apartaments/apt-girona/ximeneia.jpg" alt="Ximeneia">
+					</div>
+				</div>
+
+				<!-- Navegació i thumbnails -->
+				<div class="gallery-nav">
+					<label for="img1" class="thumbnail">
+						<img src="../media/apartaments/apt-girona/cuina.jpg" alt="Thumbnail cuina">
+					</label>
+					<label for="img2" class="thumbnail">
+						<img src="../media/apartaments/apt-girona/exteriorantiga.jpg" alt="Thumbnail exterior">
+					</label>
+					<label for="img3" class="thumbnail">
+						<img src="../media/apartaments/apt-girona/habitacio1.jpg" alt="Thumbnail habitació 1">
+					</label>
+					<label for="img4" class="thumbnail">
+						<img src="../media/apartaments/apt-girona/habitacio2.jpg" alt="Thumbnail habitació 2">
+					</label>
+					<label for="img5" class="thumbnail">
+						<img src="../media/apartaments/apt-girona/jardi.jpg" alt="Thumbnail jardí">
+					</label>
+					<label for="img6" class="thumbnail">
+						<img src="../media/apartaments/apt-girona/lavabo.jpg" alt="Thumbnail lavabo">
+					</label>
+					<label for="img7" class="thumbnail">
+						<img src="../media/apartaments/apt-girona/lavabo2.jpg" alt="Thumbnail lavabo 2">
+					</label>
+					<label for="img8" class="thumbnail">
+						<img src="../media/apartaments/apt-girona/menjador.jpg" alt="Thumbnail menjador">
+					</label>
+					<label for="img9" class="thumbnail">
+						<img src="../media/apartaments/apt-girona/salamenjador.jpg" alt="Thumbnail sala menjador">
+					</label>
+					<label for="img10" class="thumbnail">
+						<img src="../media/apartaments/apt-girona/piscina.jpg" alt="Thumbnail piscina">
+					</label>
+					<label for="img11" class="thumbnail">
+						<img src="../media/apartaments/apt-girona/ximeneia.jpg" alt="Thumbnail ximeneia">
+					</label>
+				</div>
 			</div>
-		</footer>
+		</section>
+	</main>
+
+	<!-- Footer -->
+	<footer>
+		<p>&copy; 2024 Apartaments J. Miquel. Tots els drets reservats.</p>
+	</footer>
+
+	<!-- Footer mòbil -->
+	<footer class="footer-movil">
+		<div class="footer-socials-movil">
+			<a href="https://www.facebook.com/people/Apartaments-lloguer-jmiquel-llivia/100057320145535/"
+				target="_blank" class="social-btn">
+				<img src="../media/facebook.png" alt="Facebook">
+			</a>
+			<a href="https://www.instagram.com/apartamentsjmiquel/" target="_blank" class="social-btn">
+				<img src="../media/instagram.png" alt="Instagram">
+			</a>
+			<a href="https://x.com/apartjmiquel" target="_blank" class="social-btn">
+				<img src="../media/twitter.png" alt="Twitter">
+			</a>
+		</div>
+	</footer>
 </body>
 
 </html>
