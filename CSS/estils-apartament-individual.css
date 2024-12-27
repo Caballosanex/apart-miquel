@@ -22,6 +22,7 @@
 	font-weight: 500;
 	margin: 0 0 1rem;
 	text-shadow: 1px 1px 0px #000;
+	font-size: x-large;
 }
 
 .apartment-info .description {
@@ -29,6 +30,7 @@
 	line-height: 1.6;
 	margin: 0 auto;
 	max-width: 800px;
+	font-size: large;
 }
 
 /* Estils de la galeria */
