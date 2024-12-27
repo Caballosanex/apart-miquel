@@ -87,7 +87,6 @@ header .logo img {
 .intro,
 .gallery {
 	background-image: url('../media/fons_apartament.png');
-	/* Canvia pel camí real de la teva imatge */
 	background-size: 80%;
 	background-attachment: local;
 	/* Opcional: Manté el fons fix mentre es fa scroll */
