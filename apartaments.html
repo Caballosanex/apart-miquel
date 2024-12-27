@@ -5,14 +5,35 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Apartaments en lloguer a Llívia - Descobreix els nostres allotjaments">
-	<meta name="keywords" content="lloguer, apartaments, Llívia, vacances, Cerdanya">
+	<meta name="description" content="Lloguer d'apartaments a Llivia: turisme rural, esports d'aventura i relax.">
+	<meta name="keywords" content="lloguer, vacances, apartaments, Llivia, turisme rural, Cerdanya">
+
+	<!-- Critical CSS loaded synchronously -->
 	<link rel="stylesheet" href="CSS/estils.css">
-	<link rel="stylesheet" href="CSS/estils-movil.css">
 	<link rel="stylesheet" href="CSS/estils-apartaments.css">
+
+	<!-- Non-critical CSS loaded asynchronously -->
+	<link rel="stylesheet" href="CSS/estils-movil.css" media="print" onload="this.media='all'">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+		media="print" onload="this.media='all'">
+	<noscript>
+		<link rel="stylesheet" href="CSS/estils-movil.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+	</noscript>
+
+	<!-- Favicon -->
 	<link rel="shortcut icon" href="media/casa.ico">
-	<title>Apartaments disponibles | Apartaments J.Miquel Llívia</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+
+	<!-- Page title -->
+	<title>Apartaments J.Miquel | Lloguer Apartaments Llivia</title>
+
+	<!-- Preconnect to Google Fonts domains -->
+	<link rel="preconnect" href="https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fBBc4.woff2">
+	<link rel="preconnect" href="https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc4.woff2">
+	<link rel="preconnect" href="https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2">
+
+	<!-- Preload LCP image -->
+	<link rel="preload" as="image" href="media/fons_apartament.jpg">
 </head>
 
 <body>
@@ -87,8 +108,10 @@
 				<div class="apartment-content">
 					<h2>APARTAMENT MBP</h2>
 					<p class="location">Avinguda Catalunya</p>
-					<p class="description">Planta Baixa de 70 m2 amb capacitat per a 7 persones, 3 Habitacions, 1 Bany i 1 Lavabo.
-					Saló-Menjador i una gran Cuina. Pàrquing i traster. Zona comunitaria amb Piscina i tenis amb terrassa particular.</p>
+					<p class="description">Planta Baixa de 70 m2 amb capacitat per a 7 persones, 3 Habitacions, 1 Bany i
+						1 Lavabo.
+						Saló-Menjador i una gran Cuina. Pàrquing i traster. Zona comunitaria amb Piscina i tenis amb
+						terrassa particular.</p>
 					<a href="apartaments/apartament-mbp.html" class="more-info-btn">Més informació</a>
 				</div>
 			</article>
@@ -103,7 +126,7 @@
 					<h2>APARTAMENT MUÑOZ I</h2>
 					<p class="location">Carrer Encorones</p>
 					<p class="description">Primera Planta amb capacitat per a 5 persones. 2 Habitacions,
-					Cuina-Menjador i 1 Bany, pàrquing i terrassa.</p>
+						Cuina-Menjador i 1 Bany, pàrquing i terrassa.</p>
 					<a href="apartaments/apartament-muñoz-1.html" class="more-info-btn">Més informació</a>
 				</div>
 			</article>
@@ -118,8 +141,8 @@
 					<h2>APARTAMENT ORLANDO</h2>
 					<p class="location">Carrer Encorones</p>
 					<p class="description">Àtic de 90 m2, Dúplex amb capacitat per a 7 persones amb 3 Habitacions,
-					Cuina, Saló-Menjador amb Ximemeia i 2 Banys. Pàrquing i traster. Zona comunitària amb piscina
-					i tenis. Molt ampli i acollidor.</p>
+						Cuina, Saló-Menjador amb Ximemeia i 2 Banys. Pàrquing i traster. Zona comunitària amb piscina
+						i tenis. Molt ampli i acollidor.</p>
 					<a href="apartaments/apartament-orlando.html" class="more-info-btn">Més informació</a>
 				</div>
 			</article>
@@ -134,7 +157,7 @@
 					<h2>APARTAMENT PIRINEU</h2>
 					<p class="location">Avinguda Catalunya</p>
 					<p class="description">Primera Planta de 40 m2 amb capacitat per a 2 persones. 1 habitació doble,
-					Cuina-Menjador amb Ximeneia, 1 Bany, pàrquing i Terrassa. Molt acollidor i assoleiat.</p>
+						Cuina-Menjador amb Ximeneia, 1 Bany, pàrquing i Terrassa. Molt acollidor i assoleiat.</p>
 					<a href="apartaments/apartament-pirineu.html" class="more-info-btn">Més informació</a>
 				</div>
 			</article>
@@ -149,7 +172,8 @@
 					<h2>APARTAMENT MUÑOZ II</h2>
 					<p class="location">Avinguda Catalunya</p>
 					<p class="description">Planta Baixa amb capacitat per a 5 persones. Cuina-Menjador amb Ximeneia,
-					1 Bany amb banyera i terrassa particular en zona comunitària amb Piscina i tenis. 3 Habitacións.</p>
+						1 Bany amb banyera i terrassa particular en zona comunitària amb Piscina i tenis. 3 Habitacións.
+					</p>
 					<a href="apartaments/apartament-muñoz-2.html" class="more-info-btn">Més informació</a>
 				</div>
 			</article>
@@ -163,8 +187,9 @@
 				<div class="apartment-content">
 					<h2>APARTAMENT TROC</h2>
 					<p class="location">Avinguda Catalunya</p>
-					<p class="description">Planta Baixa de 95 m2 amb capacitat per a 8 persones, molt ampli. 2 Banys grans, 4 habitacións, cuina-menjador amb
-					ximeneia. Zona comunitària i terrassa particular, pàrquing i traster.</p>
+					<p class="description">Planta Baixa de 95 m2 amb capacitat per a 8 persones, molt ampli. 2 Banys
+						grans, 4 habitacións, cuina-menjador amb
+						ximeneia. Zona comunitària i terrassa particular, pàrquing i traster.</p>
 					<a href="apartaments/apartament-troc.html" class="more-info-btn">Més informació</a>
 				</div>
 			</article>

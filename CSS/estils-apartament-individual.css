@@ -18,9 +18,10 @@
 }
 
 .apartment-info .location {
-	color: #ff8c00;
+	color: #ffffff;
 	font-weight: 500;
 	margin: 0 0 1rem;
+	text-shadow: 1px 1px 0px #000;
 }
 
 .apartment-info .description {
