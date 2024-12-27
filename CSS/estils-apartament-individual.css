@@ -1,169 +1,137 @@
 /* estils-apartament-individual.css */
 .apartment-details {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2rem;
 }
 
 .apartment-info {
-    text-align: center;
-    margin-bottom: 2rem;
+	text-align: center;
+	margin-bottom: 2rem;
 }
 
 .apartment-info h1 {
-    color: #ff8c00;
-    font-size: 2.5rem;
-    text-shadow: 1px 1px 0px #000;
-    margin: 0 0 1rem;
+	color: #ff8c00;
+	font-size: 2.5rem;
+	text-shadow: 1px 1px 0px #000;
+	margin: 0 0 1rem;
 }
 
 .apartment-info .location {
-    color: #ff8c00;
-    font-weight: 500;
-    margin: 0 0 1rem;
+	color: #ff8c00;
+	font-weight: 500;
+	margin: 0 0 1rem;
 }
 
 .apartment-info .description {
-    color: #333;
-    line-height: 1.6;
-    margin: 0 auto;
-    max-width: 800px;
+	color: #333;
+	line-height: 1.6;
+	margin: 0 auto;
+	max-width: 800px;
 }
 
 /* Estils de la galeria */
 .image-gallery {
-    margin: 2rem 0;
+	margin: 2rem 0;
 }
 
 .image-gallery input[type="radio"] {
-    display: none;
+	display: none;
 }
 
 .gallery-container {
-    background: white;
-    border-radius: 8px;
-    padding: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	background: white;
+	border-radius: 8px;
+	padding: 1rem;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .gallery-main {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    overflow: hidden;
-    margin-bottom: 1rem;
-    border-radius: 8px;
+	position: relative;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	margin-bottom: 1rem;
+	border-radius: 8px;
 }
 
 .main-img {
-    display: flex;
-    width: 1100%;  /* Ajustat per 11 imatges */
-    height: 100%;
-    transition: transform 0.5s ease;
+	display: flex;
+	height: 100%;
+	transition: transform 0.5s ease;
 }
 
 .main-img img {
-    width: calc(100% / 11);  /* Ajustat per 11 imatges */
-    height: 100%;
-    object-fit: cover;
+	height: 100%;
+	object-fit: cover;
 }
-
-/* Control del carrusel mitjançant radio buttons */
-#img1:checked ~ .gallery-container .main-img { transform: translateX(0); }
-#img2:checked ~ .gallery-container .main-img { transform: translateX(-9.09%); }
-#img3:checked ~ .gallery-container .main-img { transform: translateX(-18.18%); }
-#img4:checked ~ .gallery-container .main-img { transform: translateX(-27.27%); }
-#img5:checked ~ .gallery-container .main-img { transform: translateX(-36.36%); }
-#img6:checked ~ .gallery-container .main-img { transform: translateX(-45.45%); }
-#img7:checked ~ .gallery-container .main-img { transform: translateX(-54.54%); }
-#img8:checked ~ .gallery-container .main-img { transform: translateX(-63.63%); }
-#img9:checked ~ .gallery-container .main-img { transform: translateX(-72.72%); }
-#img10:checked ~ .gallery-container .main-img { transform: translateX(-81.81%); }
-#img11:checked ~ .gallery-container .main-img { transform: translateX(-90.90%); }
 
 /* Estils dels thumbnails */
 .gallery-nav {
-    display: flex;
-    gap: 0.5rem;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 0.5rem;
+	display: flex;
+	gap: 0.5rem;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0.5rem;
 }
 
 .thumbnail {
-    width: 80px;
-    height: 80px;
-    cursor: pointer;
-    border-radius: 4px;
-    overflow: hidden;
-    opacity: 0.6;
-    transition: opacity 0.3s ease, transform 0.3s ease;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	border-radius: 4px;
+	overflow: hidden;
+	opacity: 0.6;
+	transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .thumbnail img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .thumbnail:hover {
-    opacity: 1;
-    transform: scale(1.05);
-}
-
-/* Estil del thumbnail actiu */
-#img1:checked ~ .gallery-container .gallery-nav label:nth-child(1),
-#img2:checked ~ .gallery-container .gallery-nav label:nth-child(2),
-#img3:checked ~ .gallery-container .gallery-nav label:nth-child(3),
-#img4:checked ~ .gallery-container .gallery-nav label:nth-child(4),
-#img5:checked ~ .gallery-container .gallery-nav label:nth-child(5),
-#img6:checked ~ .gallery-container .gallery-nav label:nth-child(6),
-#img7:checked ~ .gallery-container .gallery-nav label:nth-child(7),
-#img8:checked ~ .gallery-container .gallery-nav label:nth-child(8),
-#img9:checked ~ .gallery-container .gallery-nav label:nth-child(9),
-#img10:checked ~ .gallery-container .gallery-nav label:nth-child(10),
-#img11:checked ~ .gallery-container .gallery-nav label:nth-child(11) {
-    opacity: 1;
-    transform: scale(1.05);
-    box-shadow: 0 0 0 2px #ff8c00;
+	opacity: 1;
+	transform: scale(1.05);
 }
 
 /* Responsive */
 @media (max-width: 842px) {
-    .apartment-details {
-        padding: 1rem;
-    }
+	.apartment-details {
+		padding: 1rem;
+	}
 
-    .gallery-main {
-        height: 300px;
-    }
+	.gallery-main {
+		height: 300px;
+	}
 
-    .thumbnail {
-        width: 60px;
-        height: 60px;
-    }
+	.thumbnail {
+		width: 60px;
+		height: 60px;
+	}
 
-    .gallery-nav {
-        gap: 0.25rem;
-    }
+	.gallery-nav {
+		gap: 0.25rem;
+	}
 
-    .apartment-info h1 {
-        font-size: 2rem;
-    }
+	.apartment-info h1 {
+		font-size: 2rem;
+	}
 }
 
 /* Millores per a dispositius molt petits */
 @media (max-width: 480px) {
-    .gallery-main {
-        height: 250px;
-    }
+	.gallery-main {
+		height: 250px;
+	}
 
-    .thumbnail {
-        width: 50px;
-        height: 50px;
-    }
+	.thumbnail {
+		width: 50px;
+		height: 50px;
+	}
 
-    .gallery-nav {
-        padding: 0.25rem;
-    }
+	.gallery-nav {
+		padding: 0.25rem;
+	}
 }
