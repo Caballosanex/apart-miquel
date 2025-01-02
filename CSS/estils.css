@@ -390,6 +390,8 @@ footer {
 	}
 
 	/* Amaga les xarxes socials del header */
+	/* Aquestes classes són específiques per a la versió mòbil, no estan a estils-movils.css */
+	/* Controlen l'aparició de les xarxes socials en el header i menu burger */
 	header .social-buttons {
 		display: none;
 	}
@@ -428,7 +430,6 @@ footer {
 		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 		transition: right 0.3s ease;
 		z-index: 1;
-		/* He eliminat height: 100vh */
 		/* Afegim aquestes propietats per ajustar automàticament */
 		height: auto;
 		max-height: fit-content;
@@ -461,7 +462,6 @@ footer {
 	/* Mostra el menú només quan està activat */
 	.menu-toggle:checked~.menu-items {
 		right: 0;
-		/* Ara es mostrarà des de la dreta */
 	}
 
 	/* Galetes mòbil */
