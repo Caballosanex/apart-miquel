@@ -283,6 +283,62 @@ footer {
 	/* Amagat per defecte */
 }
 
+/* Galetes :P */
+.cookie-consent {
+	position: fixed;
+	bottom: 80px;
+	left: 0;
+	right: 0;
+	background-color: #202929;
+	color: white;
+	padding: 1rem;
+	z-index: 9999;
+	display: none;
+}
+
+.cookie-content {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.cookie-buttons {
+	display: flex;
+	gap: 1rem;
+}
+
+.cookie-accept,
+.cookie-reject {
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-weight: 500;
+	transition: all 0.3s ease;
+}
+
+.cookie-accept {
+	background-color: #ff8c00;
+	color: white;
+}
+
+.cookie-accept:hover {
+	background-color: #d07200;
+}
+
+.cookie-reject {
+	background-color: #004d4d;
+	color: white;
+}
+
+.cookie-reject:hover {
+	background-color: #003333;
+}
+
 /* Responsiu */
 @media (max-width: 842px) {
 	.intro h1 {
@@ -406,5 +462,15 @@ footer {
 	.menu-toggle:checked~.menu-items {
 		right: 0;
 		/* Ara es mostrarà des de la dreta */
+	}
+
+	/* Galetes mòbil */
+	.cookie-content {
+		text-align: center;
+		justify-content: center;
+	}
+
+	.cookie-consent {
+		bottom: 100px;
 	}
 }

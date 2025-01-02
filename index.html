@@ -62,12 +62,12 @@
 				<span></span>
 			</label>
 			<nav class="menu-items">
-				<a href="#intro">Inici</a>
-				<a href="#testimonials">Opinions</a>
-				<a href="apartaments.html">Apartaments</a>
-				<a href="activitats.html">Activitats</a>
-				<a href="localitzacio.html">On som</a>
-				<a href="contacte.html">Contacte</a>
+				<a href="#intro">INICI</a>
+				<a href="#testimonials">OPINIONS</a>
+				<a href="apartaments.html">APARTAMENTS</a>
+				<a href="activitats.html">ACTIVITATS</a>
+				<a href="localitzacio.html">ON SOM</a>
+				<a href="contacte.html">CONTACTE</a>
 			</nav>
 		</div>
 	</header>
@@ -83,6 +83,7 @@
 		</div>
 	</section>
 	<!-- Intro Section -->
+	</style>
 	<main>
 		<section class="intro">
 			<h1>APARTAMENTS J. MIQUEL</h1>
@@ -131,6 +132,77 @@
 			</a>
 		</div>
 	</footer>
+
+	<!-- Cookie consent banner -->
+
+	<div id="cookieConsent" class="cookie-consent">
+		<div class="cookie-content">
+			<p>Utilitzem cookies per millorar la seva experiència. En continuar navegant, accepta el seu ús.</p>
+			<div class="cookie-buttons">
+				<button id="acceptCookies" class="cookie-accept">Acceptar</button>
+				<button id="rejectCookies" class="cookie-reject">Rebutjar</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Cookie consent script -->
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			// Mostra el banner si no hi ha consentiment
+			if (!getCookie('cookieConsent')) {
+				document.getElementById('cookieConsent').style.display = 'block';
+			}
+
+			// Gestiona l'acceptació de cookies
+			document.getElementById('acceptCookies').addEventListener('click', function () {
+				setCookie('cookieConsent', 'accepted', 365);
+				document.getElementById('cookieConsent').style.display = 'none';
+				enableCookieFunctionality();
+			});
+
+			// Gestiona el rebuig de cookies
+			document.getElementById('rejectCookies').addEventListener('click', function () {
+				setCookie('cookieConsent', 'rejected', 365);
+				document.getElementById('cookieConsent').style.display = 'none';
+			});
+
+			// Comprova el consentiment i activa la funcionalitat si està acceptat
+			if (getCookie('cookieConsent') === 'accepted') {
+				enableCookieFunctionality();
+			}
+		});
+
+		// Funcions d'utilitat per a les cookies
+		function setCookie(name, value, days) {
+			const date = new Date();
+			date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+			document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/;SameSite=Strict`;
+		}
+
+		function getCookie(name) {
+			const cookies = document.cookie.split(';');
+			for (let cookie of cookies) {
+				const [cookieName, cookieValue] = cookie.split('=').map(c => c.trim());
+				if (cookieName === name) return cookieValue;
+			}
+			return null;
+		}
+
+		// Funcionalitat millorada quan s'accepten les cookies
+		function enableCookieFunctionality() {
+			// Desa la posició de scroll cada segon
+			setInterval(() => {
+				setCookie('scrollPosition', window.pageYOffset, 1);
+			}, 1000);
+
+			// Restaura la posició de scroll en carregar la pàgina
+			const savedPosition = getCookie('scrollPosition');
+			if (savedPosition) {
+				window.scrollTo(0, parseInt(savedPosition));
+			}
+		}
+	</script>
 </body>
 
 </html>
