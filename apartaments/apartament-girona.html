@@ -4,14 +4,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- Preconnect to Google Fonts domains -->
-	<link rel="preconnect" href="https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fBBc4.woff2">
-	<link rel="preconnect" href="https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc4.woff2">
-	<link rel="preconnect" href="https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2">
-
-	<!-- Preload LCP image -->
-	<link rel="preload" as="image" href="../media/fons_apartament.png">
+	<meta name="description" content="Lloguer d'apartaments a Llivia: turisme rural, esports d'aventura i relax.">
+	<meta name="keywords" content="lloguer, vacances, apartaments, Llivia, turisme rural, Cerdanya">
 
 	<!-- Critical CSS files loaded synchronously -->
 	<link rel="stylesheet" href='../CSS/estils.css'>
@@ -21,66 +15,46 @@
 	<link rel="stylesheet" href='../CSS/estils-movils.css' media="print" onload="this.media='all'">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
 		media="print" onload="this.media='all'">
-
-	<!-- Fallback for browsers that don't support onload -->
 	<noscript>
 		<link rel="stylesheet" href='../CSS/estils-movils.css'>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
 	</noscript>
 
+	<!-- Favicon -->
 	<link rel="shortcut icon" href="../media/casa.ico">
+
+	<!-- Page title -->
 	<title>Apartament Girona | Apartaments J.Miquel Llívia</title>
+
+	<!-- Preconnect to Google Fonts domains -->
+	<link rel="preconnect" href="https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fBBc4.woff2">
+	<link rel="preconnect" href="https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc4.woff2">
+	<link rel="preconnect" href="https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2">
+
+	<!-- Preload LCP image -->
+	<link rel="preload" as="image" href="../media/fons_apartament.png">
 </head>
 
-<script>
-	document.addEventListener('DOMContentLoaded', function () {
-		// Obtenir elements
-		const mainImg = document.querySelector('.main-img');
-		const images = mainImg.querySelectorAll('img');
-		const numImages = images.length;
-		const radioButtons = document.querySelectorAll('input[type="radio"]');
-		const thumbnails = document.querySelectorAll('.thumbnail');
-
-		// Establir l'amplada total basada en el nombre d'imatges
-		mainImg.style.width = `${numImages * 100}%`;
-
-		// Establir l'amplada individual de cada imatge
-		images.forEach(img => {
-			img.style.width = `${100 / numImages}%`;
-		});
-
-		// Event listeners per als radio buttons
-		radioButtons.forEach((radio, index) => {
-			radio.addEventListener('change', function () {
-				// Moviment del carrusel
-				const translateX = -(index * (100 / numImages));
-				mainImg.style.transform = `translateX(${translateX}%)`;
-
-				// Actualitzar thumbnails
-				thumbnails.forEach(thumb => {
-					thumb.style.opacity = '0.6';
-					thumb.style.transform = 'scale(1)';
-					thumb.style.boxShadow = 'none';
-				});
-
-				thumbnails[index].style.opacity = '1';
-				thumbnails[index].style.transform = 'scale(1.05)';
-				thumbnails[index].style.boxShadow = '0 0 0 2px #ff8c00';
-			});
-		});
-
-		// Marcar la primera thumbnail com activa inicialment
-		thumbnails[0].style.opacity = '1';
-		thumbnails[0].style.transform = 'scale(1.05)';
-		thumbnails[0].style.boxShadow = '0 0 0 2px #ff8c00';
-	});
-</script>
+<script src="../js/gallery-gen.js" defer></script>
 
 <body>
 	<!-- Header -->
 	<header>
 		<div class="logo">
-			<img src="../media/logo.png" alt="Logo Apartaments J. Miquel">
+			<img src="../media/logo.png" alt="Logo Apartaments J. Miquel" width="166" height="90">
+		</div>
+
+		<div class="social-buttons">
+			<a href="https://www.facebook.com/people/Apartaments-lloguer-jmiquel-llivia/100057320145535/"
+				target="_blank" class="social-btn">
+				<img src="../media/facebook.png" alt="Facebook" width="50" height="50">
+			</a>
+			<a href="https://www.instagram.com/apartamentsjmiquel/" target="_blank" class="social-btn">
+				<img src="../media/instagram.png" alt="Instagram" width="50" height="50">
+			</a>
+			<a href="https://x.com/apartjmiquel" target="_blank" class="social-btn">
+				<img src="../media/twitter.png" alt="Twitter" width="50" height="50">
+			</a>
 		</div>
 
 		<div class="menu">
@@ -90,13 +64,35 @@
 				<span></span>
 				<span></span>
 			</label>
-			<nav class="menu-items">
+			<nav class="menu-items" aria-label="Menú de navegació">
 				<a href="../index.html#intro">INICI</a>
 				<a href="../index.html#testimonials">OPINIONS</a>
-				<a href="../apartaments.html">APARTAMENTS</a>
+				<a href="apartaments.html">APARTAMENTS</a>
 				<a href="activitats.html">ACTIVITATS</a>
 				<a href="localitzacio.html">ON SOM</a>
-				<a href="contacte.html">CONTACTE</a>
+				<div class="contact-wrapper">
+					<a href="#" class="contact-trigger">CONTACTA!</a>
+					<div class="contact-submenu">
+						<a href="mailto:apartjmiquel@hotmail.com" class="contact-option email-option">
+							<div class="contact-content">
+								<div class="contact-line">
+									<span class="contact-icon">✉️</span>
+									<span class="contact-text">Via E-MAIL</span>
+								</div>
+								<div class="contact-detail">apartjmiquel@hotmail.com</div>
+							</div>
+						</a>
+						<a href="tel:608840086" class="contact-option phone-option">
+							<div class="contact-content">
+								<div class="contact-line">
+									<span class="contact-icon">📞</span>
+									<span class="contact-text">Via Telèfon</span>
+								</div>
+								<div class="contact-detail">608 840 086</div>
+							</div>
+						</a>
+					</div>
+				</div>
 			</nav>
 		</div>
 	</header>
@@ -188,10 +184,10 @@
 
 	<!-- Footer -->
 	<footer>
-		<p>&copy; 2024 Apartaments J. Miquel. Tots els drets reservats.</p>
+		<p>&copy; <span id="currentYear"></span> Apartaments J. Miquel. Tots els drets reservats.</p>
 	</footer>
 
-	<!-- Footer mòbil -->
+	<!-- Sticky Footer for Social Buttons -->
 	<footer class="footer-movil">
 		<div class="footer-socials-movil">
 			<a href="https://www.facebook.com/people/Apartaments-lloguer-jmiquel-llivia/100057320145535/"
@@ -206,6 +202,22 @@
 			</a>
 		</div>
 	</footer>
+
+	<!-- Cookie consent banner -->
+
+	<div id="cookieConsent" class="cookie-consent">
+		<div class="cookie-content">
+			<p>Utilitzem cookies per millorar la seva experiència. En continuar navegant, accepta el seu ús.</p>
+			<div class="cookie-buttons">
+				<button id="acceptCookies" class="cookie-accept" aria-label="Acceptar cookies">Acceptar</button>
+				<button id="rejectCookies" class="cookie-reject" aria-label="Rebutjar cookies">Rebutjar</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Load JavaScript asynchronously -->
+	<script src="../js/header&cookies.js" defer></script>
+
 </body>
 
 </html>

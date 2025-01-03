@@ -38,19 +38,19 @@
 	<!-- Header -->
 	<header>
 		<div class="logo">
-			<img src="media/logo.png" alt="Logo Apartaments J. Miquel">
+			<img src="media/logo.png" alt="Logo Apartaments J. Miquel" width="166" height="90">
 		</div>
 
 		<div class="social-buttons">
 			<a href="https://www.facebook.com/people/Apartaments-lloguer-jmiquel-llivia/100057320145535/"
 				target="_blank" class="social-btn">
-				<img src="media/facebook.png" alt="Facebook">
+				<img src="media/facebook.png" alt="Facebook" width="50" height="50">
 			</a>
 			<a href="https://www.instagram.com/apartamentsjmiquel/" target="_blank" class="social-btn">
-				<img src="media/instagram.png" alt="Instagram">
+				<img src="media/instagram.png" alt="Instagram" width="50" height="50">
 			</a>
 			<a href="https://x.com/apartjmiquel" target="_blank" class="social-btn">
-				<img src="media/twitter.png" alt="Twitter">
+				<img src="media/twitter.png" alt="Twitter" width="50" height="50">
 			</a>
 		</div>
 
@@ -61,19 +61,41 @@
 				<span></span>
 				<span></span>
 			</label>
-			<nav class="menu-items">
+			<nav class="menu-items" aria-label="Menú de navegació">
 				<a href="#intro">INICI</a>
 				<a href="#testimonials">OPINIONS</a>
 				<a href="apartaments.html">APARTAMENTS</a>
 				<a href="activitats.html">ACTIVITATS</a>
 				<a href="localitzacio.html">ON SOM</a>
-				<a href="contacte.html">CONTACTE</a>
+				<div class="contact-wrapper">
+					<a href="#" class="contact-trigger">CONTACTA!</a>
+					<div class="contact-submenu">
+						<a href="mailto:apartjmiquel@hotmail.com" class="contact-option email-option">
+							<div class="contact-content">
+								<div class="contact-line">
+									<span class="contact-icon">✉️</span>
+									<span class="contact-text">Via E-MAIL</span>
+								</div>
+								<div class="contact-detail">apartjmiquel@hotmail.com</div>
+							</div>
+						</a>
+						<a href="tel:608840086" class="contact-option phone-option">
+							<div class="contact-content">
+								<div class="contact-line">
+									<span class="contact-icon">📞</span>
+									<span class="contact-text">Via Telèfon</span>
+								</div>
+								<div class="contact-detail">608 840 086</div>
+							</div>
+						</a>
+					</div>
+				</div>
 			</nav>
 		</div>
 	</header>
 	<!-- Background Video Section -->
 	<section class="video-background" id="intro">
-		<video autoplay muted loop class="video-element">
+		<video autoplay muted loop preload="auto" class="video-element">
 			<source src="media/video.mp4" type="video/mp4">
 			El teu navegador no suporta el vídeo HTML5.
 		</video>
@@ -93,9 +115,9 @@
 					de
 					temporada, t’oferim l’espai ideal per desconnectar i viure moments únics.</p></strong><br>
 			<div class="gallery-container">
-				<img src="media/lliviaintro1800500.jpg" alt="Imatge 1">
-				<img src="media/lliviaintro2800500.jpg" alt="Imatge 2">
-				<img src="media/lliviaintro3800500.jpg" alt="Imatge 3">
+				<img src="media/lliviaintro1800500.jpg" alt="Imatge 1" width="800" height="500" loading="lazy">
+				<img src="media/lliviaintro2800500.jpg" alt="Imatge 2" width="800" height="500" loading="lazy">
+				<img src="media/lliviaintro3800500.jpg" alt="Imatge 3" width="800" height="500" loading="lazy">
 			</div>
 		</section>
 		<!-- Testimonials Section -->
@@ -113,10 +135,12 @@
 			</div>
 		</section>
 	</main>
+
 	<!-- Footer -->
 	<footer>
-		<p>&copy; 2024 Apartaments J. Miquel. Tots els drets reservats.</p>
+		<p>&copy; <span id="currentYear"></span> Apartaments J. Miquel. Tots els drets reservats.</p>
 	</footer>
+
 	<!-- Sticky Footer for Social Buttons -->
 	<footer class="footer-movil">
 		<div class="footer-socials-movil">
@@ -139,70 +163,15 @@
 		<div class="cookie-content">
 			<p>Utilitzem cookies per millorar la seva experiència. En continuar navegant, accepta el seu ús.</p>
 			<div class="cookie-buttons">
-				<button id="acceptCookies" class="cookie-accept">Acceptar</button>
-				<button id="rejectCookies" class="cookie-reject">Rebutjar</button>
+				<button id="acceptCookies" class="cookie-accept" aria-label="Acceptar cookies">Acceptar</button>
+				<button id="rejectCookies" class="cookie-reject" aria-label="Rebutjar cookies">Rebutjar</button>
 			</div>
 		</div>
 	</div>
 
-	<!-- Cookie consent script -->
+	<!-- Load JavaScript asynchronously -->
+	<script src="js/header&cookies.js" defer></script>
 
-	<script>
-		document.addEventListener('DOMContentLoaded', function () {
-			// Mostra el banner si no hi ha consentiment
-			if (!getCookie('cookieConsent')) {
-				document.getElementById('cookieConsent').style.display = 'block';
-			}
-
-			// Gestiona l'acceptació de cookies
-			document.getElementById('acceptCookies').addEventListener('click', function () {
-				setCookie('cookieConsent', 'accepted', 365);
-				document.getElementById('cookieConsent').style.display = 'none';
-				enableCookieFunctionality();
-			});
-
-			// Gestiona el rebuig de cookies
-			document.getElementById('rejectCookies').addEventListener('click', function () {
-				setCookie('cookieConsent', 'rejected', 365);
-				document.getElementById('cookieConsent').style.display = 'none';
-			});
-
-			// Comprova el consentiment i activa la funcionalitat si està acceptat
-			if (getCookie('cookieConsent') === 'accepted') {
-				enableCookieFunctionality();
-			}
-		});
-
-		// Funcions d'utilitat per a les cookies
-		function setCookie(name, value, days) {
-			const date = new Date();
-			date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-			document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/;SameSite=Strict`;
-		}
-
-		function getCookie(name) {
-			const cookies = document.cookie.split(';');
-			for (let cookie of cookies) {
-				const [cookieName, cookieValue] = cookie.split('=').map(c => c.trim());
-				if (cookieName === name) return cookieValue;
-			}
-			return null;
-		}
-
-		// Funcionalitat millorada quan s'accepten les cookies
-		function enableCookieFunctionality() {
-			// Desa la posició de scroll cada segon
-			setInterval(() => {
-				setCookie('scrollPosition', window.pageYOffset, 1);
-			}, 1000);
-
-			// Restaura la posició de scroll en carregar la pàgina
-			const savedPosition = getCookie('scrollPosition');
-			if (savedPosition) {
-				window.scrollTo(0, parseInt(savedPosition));
-			}
-		}
-	</script>
 </body>
 
 </html>
