@@ -34,6 +34,7 @@ header {
 	/* Adjust to truly center the group */
 	display: flex;
 	gap: 1rem;
+	margin: 0px 5px;
 }
 
 /* Social Button Styling */
