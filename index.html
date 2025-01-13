@@ -9,15 +9,78 @@
 		content="lloguer apartaments Llivia, allotjament Cerdanya, apartaments turístics Pirineus, apartaments familiars muntanya, vacances Llivia, esquí Masella, esquí La Molina, senderisme Cerdanya, BTT Pirineus, turisme rural Llivia">
 	<meta name="robots" content="index, follow">
 	<meta name="author" content="Apartaments J.Miquel">
+	<meta http-equiv="Cache-Control" content="max-age=31536000">
 
-	<!-- Critical CSS loaded synchronously -->
-	<link rel="stylesheet" href="CSS/estils.css">
+	<!-- Preload critical assets -->
+	<link rel="preload" as="image" href="media/fons_apartament.png" type="image/png" fetchpriority="high">
+	<link rel="preload" as="font" href="https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"
+		type="font/woff2" crossorigin>
+
+	<!-- Critical CSS inlined -->
+	<style>
+		/* Critical styles for above-the-fold content */
+		body {
+			font-family: 'Roboto', 'Arial', sans-serif;
+			margin: 0;
+			padding: 0;
+			line-height: 1.6;
+			color: #333;
+			background-color: #f8f9fa;
+		}
+
+		header {
+			display: flex;
+			position: sticky;
+			top: 0;
+			z-index: 1000;
+			justify-content: space-between;
+			align-items: center;
+			padding: 1rem 2rem;
+			background-color: #FFFFFF;
+			color: #fff;
+			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		}
+
+		.intro {
+			text-align: center;
+			padding: 2rem;
+			background-color: #e0f7fa;
+			background-image: url('media/fons_apartament.png');
+			background-size: cover;
+			background-attachment: scroll;
+			will-change: transform;
+		}
+
+		.intro h1 {
+			font-size: 2.5rem;
+			color: #ff8c00;
+			margin-bottom: 0.5rem;
+			text-shadow: 1px 1px 0px #000;
+		}
+
+		.intro h2 {
+			font-size: 1.8rem;
+			color: #004444;
+			margin-bottom: 1rem;
+		}
+
+		.intro p {
+			font-size: 1.1rem;
+			color: #333;
+			max-width: 800px;
+			margin: 0 auto;
+			line-height: 1.8;
+		}
+	</style>
 
 	<!-- Non-critical CSS loaded asynchronously -->
+	<link rel="stylesheet" href="CSS/estils.css" media="print" onload="this.media='all'">
 	<link rel="stylesheet" href="CSS/estils-movils.css" media="print" onload="this.media='all'">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
 		media="print" onload="this.media='all'">
+
 	<noscript>
+		<link rel="stylesheet" href="CSS/estils.css">
 		<link rel="stylesheet" href="CSS/estils-movils.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
 	</noscript>
@@ -25,16 +88,7 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="media/casa.ico">
 
-	<!-- Page title -->
 	<title>Apartaments J.Miquel | Lloguer Apartaments Llivia</title>
-
-	<!-- Preconnect to Google Fonts domains -->
-	<link rel="preconnect" href="https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fBBc4.woff2">
-	<link rel="preconnect" href="https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc4.woff2">
-	<link rel="preconnect" href="https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2">
-
-	<!-- Preload LCP image -->
-	<link rel="preload" as="image" href="media/fons_apartament.png">
 </head>
 
 <body>
@@ -96,7 +150,9 @@
 			</nav>
 		</div>
 	</header>
+
 	<!-- Background Video Section -->
+
 	<section class="video-background" id="intro">
 		<video autoplay muted loop preload="auto" class="video-element">
 			<source src="media/video.webm" type="video/webm">
@@ -109,19 +165,20 @@
 	</section>
 	<!-- Intro Section -->
 	<main>
+		<!-- Intro Section moved before video for better LCP -->
 		<section class="intro">
 			<h1>APARTAMENTS J. MIQUEL</h1>
 			<h2>Lloguer d'Apartaments a Llívia</h2>
-			<p><strong>Lloguer d’apartaments en una ubicació privilegiada a la Cerdanya. Gaudeix d’una estada envoltat
+			<p><strong>Lloguer d'apartaments en una ubicació privilegiada a la Cerdanya. Gaudeix d'una estada envoltat
 					de natura i aventures. Tant si busques un cap de setmana relaxant, una escapada curta, o un lloguer
-					de
-					temporada, t’oferim l’espai ideal per desconnectar i viure moments únics.</p></strong><br>
+					de temporada, t'oferim l'espai ideal per desconnectar i viure moments únics.</p></strong><br>
 			<div class="gallery-container">
 				<img src="media/lliviaintro1800500.jpg" alt="Imatge 1" width="800" height="500" loading="lazy">
 				<img src="media/lliviaintro2800500.jpg" alt="Imatge 2" width="800" height="500" loading="lazy">
 				<img src="media/lliviaintro3800500.jpg" alt="Imatge 3" width="800" height="500" loading="lazy">
 			</div>
 		</section>
+
 		<!-- Testimonials Section -->
 		<section class="testimonials" id="testimonials">
 			<h2>Què diuen els nostres clients?</h2>
