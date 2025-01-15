@@ -89,3 +89,8 @@ User-agent: *
 Allow: /
 
 # Optionally block specific sensitive paths
+Disallow: /media/
+Disallow: /CSS/
+Disallow: /js/
+
+Sitemap: to:do
