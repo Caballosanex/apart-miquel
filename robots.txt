@@ -37,7 +37,7 @@ User-agent: DuckDuckBot
 Allow: /
 
 User-agent: YandexBot
-Allow: /
+Disallow: /
 
 # Block social media bots
 User-agent: Facebot
@@ -54,7 +54,7 @@ User-agent: ia_archiver
 Disallow: /
 
 User-agent: Archive.org_bot
-Disallow: /
+Allow: /
 
 User-agent: DotBot
 Disallow: /

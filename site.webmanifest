@@ -3,8 +3,6 @@
 	"short_name": "Apartaments",
 	"start_url": "/index.html",
 	"display": "standalone",
-	"background_color": "#ffffff",
-	"theme_color": "#1a73e8",
 	"icons": [
 		{
 			"src": "/media/casa.ico",
