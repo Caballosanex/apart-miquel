@@ -14,12 +14,23 @@
 	<!-- Preload critical resources -->
 	<link rel="preload" as="style"
 		href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+	<link rel="preload" as="style" href="CSS/estils.css">
+	<link rel="preload" as="style" href="CSS/estils-movils.css">
 	<link rel="preload" as="video" href="media/video.webm" type="video/webm">
 	<link rel="preload" as="image" href="media/logo.webp">
-	<link rel="preload" as="image" href="media/lliviaintro1800500.webp">
-	<link rel="preload" as="image" href="media/lliviaintro2800500.webp">
-	<link rel="preload" as="image" href="media/lliviaintro3800500.webp">
-	<link rel="preload" as="image" href="media/fons_apartament.webp">
+
+	<!-- Critical CSS inline para el LCP -->
+	<style>
+		.intro {
+			text-align: center;
+			padding: 2em;
+			background-color: var(--background-color);
+		}
+		.intro h1, .intro h2 {
+			margin: 0.5em 0;
+			font-family: 'Roboto', sans-serif;
+		}
+	</style>
 
 	<!-- Non-critical CSS loaded asynchronously -->
 	<link rel="stylesheet" href="CSS/estils.css" media="print" onload="this.media='all'">
