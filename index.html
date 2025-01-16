@@ -14,8 +14,8 @@
 	<!-- Preload critical resources -->
 	<link rel="preload" as="style"
 		href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
-	<link rel="preload" as="style" href="CSS/estils.css">
-	<link rel="preload" as="style" href="CSS/estils-movils.css">
+	<link rel="stylesheet" href="CSS/estils.css">
+	<link rel="stylesheet" href="CSS/estils-movils.css">
 	<link rel="preload" as="image" href="media/logo.webp">
 
 	<!-- Critical CSS inline para el LCP -->
@@ -32,14 +32,10 @@
 	</style>
 
 	<!-- Non-critical CSS loaded asynchronously -->
-	<link rel="stylesheet" href="CSS/estils.css" media="print" onload="this.media='all'">
-	<link rel="stylesheet" href="CSS/estils-movils.css" media="print" onload="this.media='all'">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
 		media="print" onload="this.media='all'">
 
 	<noscript>
-		<link rel="stylesheet" href="CSS/estils.css">
-		<link rel="stylesheet" href="CSS/estils-movils.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
 	</noscript>
 
@@ -49,8 +45,7 @@
 	<title>Apartaments J.Miquel | Lloguer Apartaments Llivia</title>
 </head>
 
-<body onload="document.body.style.visibility='visible';">
-	<script>document.body.style.visibility = 'hidden';</script>
+<body>
 	<!-- Header -->
 	<header>
 		<div class="logo">
