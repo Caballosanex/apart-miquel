@@ -71,19 +71,6 @@ Disallow: /
 User-agent: MJ12bot
 Disallow: /
 
-# Block any crawler identifying as AI, bot, or crawler
-User-agent: *AI*
-Disallow: /
-
-User-agent: *bot*
-Disallow: /
-
-User-agent: *crawler*
-Disallow: /
-
-User-agent: *scraper*
-Disallow: /
-
 # Default access rules
 User-agent: *
 Allow: /
@@ -92,5 +79,3 @@ Allow: /
 Disallow: /media/
 Disallow: /CSS/
 Disallow: /js/
-
-Sitemap: to:do
