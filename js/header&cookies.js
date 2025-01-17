@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	initializeCookieConsent();
 	initializeContactMenu();
 	initializeMenuHandling();
-	initializeSocialLinks();
 });
 
 // Actualització de l'any
@@ -139,27 +138,4 @@ function enableCookieFunctionality() {
 			window.scrollTo(0, parseInt(savedPosition));
 		});
 	}
-}
-
-// Nueva función para manejar los enlaces sociales
-function initializeSocialLinks() {
-	const socialLinks = document.querySelectorAll('.social-btn');
-	
-	socialLinks.forEach(link => {
-		link.addEventListener('click', function(e) {
-			e.preventDefault();
-			
-			const href = this.getAttribute('href');
-			const fallback = this.getAttribute('data-fallback') || href; // Usar href como fallback si no hay data-fallback
-			
-			// Try to open the app first
-			window.location.href = href;
-			
-			// Set a timeout to check if the app opened
-			// If not, redirect to the fallback URL
-			setTimeout(() => {
-				window.location.href = fallback;
-			}, 2000); // Wait 2 seconds before fallback
-		});
-	});
 }
