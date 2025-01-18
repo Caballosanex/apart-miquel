@@ -765,3 +765,267 @@ footer {
 	background-color: rgba(255, 255, 255, 0.95);
 	padding: 1rem;
 }
+
+/* Estils per la pàgina About Us */
+.about-content {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.about-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 2rem;
+	margin-bottom: 2rem;
+}
+
+.about-card {
+	background-color: rgba(255, 255, 255, 0.95);
+	padding: 2rem;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	backdrop-filter: blur(5px);
+}
+
+.about-card h2 {
+	color: #004d4d;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.about-card p {
+	color: #666;
+	line-height: 1.6;
+	margin-bottom: 1rem;
+	text-align: justify;
+}
+
+.values-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.values-list li {
+	margin-bottom: 1rem;
+	color: #666;
+	display: flex;
+	align-items: center;
+	gap: 0.8rem;
+	font-size: 1.1em;
+}
+
+/* Estils per la pàgina About Us */
+.about-sections {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2rem 20px;
+}
+
+.about-section {
+	display: flex;
+	align-items: center;
+	gap: 4rem;
+	margin-bottom: 6rem;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+	will-change: opacity, transform;
+}
+
+.about-section.reverse {
+	flex-direction: row-reverse;
+}
+
+.about-text {
+	flex: 1;
+}
+
+.about-image {
+	flex: 1;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	position: relative;
+}
+
+.about-image img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+	transform-origin: center;
+	display: block;
+}
+
+.about-image::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(255, 255, 255, 0.95);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	pointer-events: none;
+}
+
+.about-image:hover::after {
+	opacity: 0.1;
+}
+
+.about-image:hover img {
+	transform: scale(1.05);
+}
+
+.about-section h2 {
+	color: #004d4d;
+	margin-bottom: 1.5rem;
+	font-size: 2rem;
+	text-align: left;
+}
+
+.about-section p {
+	color: #666;
+	line-height: 1.8;
+	font-size: 1.1rem;
+	text-align: justify;
+}
+
+.values-list {
+	list-style: none;
+	padding: 0;
+}
+
+.values-list li {
+	margin-bottom: 1.5rem;
+	color: #666;
+	font-size: 1.2rem;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	opacity: 0;
+	transform: translateX(-30px);
+	transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+	will-change: opacity, transform;
+}
+
+/* Classes per quan són visibles */
+.about-section.visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.values-list li.visible {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+/* Eliminem tots els estils d'animació anteriors */
+@media (max-width: 842px) {
+	.about-section {
+		flex-direction: column;
+		gap: 2rem;
+		margin-bottom: 4rem;
+	}
+
+	.about-section.reverse {
+		flex-direction: column;
+	}
+
+	.about-image img {
+		height: 300px;
+	}
+
+	.about-section h2 {
+		font-size: 1.8rem;
+		text-align: center;
+	}
+}
+
+/* Estils compartits per pàgines amb fons */
+.page-section {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2rem 20px;
+}
+
+/* Cards base */
+.content-card {
+	background-color: rgba(255, 255, 255, 0.95);
+	padding: 2rem;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	backdrop-filter: blur(5px);
+}
+
+/* Títols de secció */
+.section-title {
+	color: #004d4d;
+	margin-bottom: 1.5rem;
+	font-size: 2rem;
+	text-align: left;
+}
+
+/* Text base */
+.section-text {
+	color: #666;
+	line-height: 1.8;
+	font-size: 1.1rem;
+	text-align: justify;
+}
+
+/* Grid layout base */
+.content-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 2rem;
+	margin-bottom: 2rem;
+}
+
+/* Estils específics per about us */
+.about-section {
+	display: flex;
+	align-items: center;
+	gap: 4rem;
+	margin-bottom: 6rem;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+	will-change: opacity, transform;
+}
+
+.about-image {
+	flex: 1;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	position: relative;
+}
+
+/* Estils específics per whereami */
+.location-info {
+	composes: content-grid;
+}
+
+.info-card {
+	composes: content-card;
+}
+
+/* Media queries */
+@media (max-width: 842px) {
+	.section-title {
+		font-size: 1.8rem;
+		text-align: center;
+	}
+
+	.about-section {
+		flex-direction: column;
+		gap: 2rem;
+		margin-bottom: 4rem;
+	}
+}
