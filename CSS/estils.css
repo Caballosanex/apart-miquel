@@ -423,29 +423,41 @@ footer {
 		animation: slideDown 0.3s ease forwards;
 	}
 
+	.contact-option {
+		transition: opacity 0.3s ease, background-color 0.3s ease;
+	}
+
 	.contact-option:hover {
 		background-color: #ff8c00 !important;
+	}
+
+	.contact-option:hover .contact-line,
+	.contact-option:hover .contact-detail {
 		color: white !important;
 	}
 
-	.contact-option:hover .contact-detail {
-		color: white;
-	}
-
-	.contact-option:hover+.contact-option,
-	.contact-option:not(:hover) {
+	/* Quan es fa hover sobre una opció, l'altra s'atenua */
+	.contact-option:hover ~ .contact-option,
+	.contact-submenu:hover .contact-option:not(:hover) {
 		opacity: 0.5;
+		background-color: #f5f5f5;
 	}
 
+	/* El text principal i el detall sempre són visibles */
+	.contact-text,
 	.contact-detail {
-		display: none;
+		display: block;
 	}
 
+	/* Ajustem l'espai entre el text principal i el detall */
+	.contact-detail {
+		font-size: 0.9em;
+		margin-top: 0.3em;
+		color: inherit;
+	}
+
+	/* Eliminem les regles que amagaven el text */
 	.contact-option:hover .contact-text {
-		display: none;
-	}
-
-	.contact-option:hover .contact-detail {
 		display: block;
 	}
 }
