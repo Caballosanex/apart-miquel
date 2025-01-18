@@ -5,35 +5,18 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Lloguer d'apartaments a Llivia: turisme rural, esports d'aventura i relax.">
-	<meta name="keywords"
-		content="lloguer apartaments Llivia, allotjament Cerdanya, apartaments turístics Pirineus, apartaments familiars muntanya, vacances Llivia, esquí Masella, esquí La Molina, senderisme Cerdanya, BTT Pirineus, turisme rural Llivia">
-	<meta name="robots" content="index, follow">
-	<meta name="author" content="Apartaments J.Miquel">
+	<meta name="keywords" content="lloguer, vacances, apartaments, Llivia, turisme rural, Cerdanya">
 	<meta http-equiv="Cache-Control" content="public, max-age=31536000, immutable">
 	<meta http-equiv="Expires" content="31536000">
 
-	<!-- Preload critical resources -->
+	<!-- Preload Critical Resources -->
 	<link rel="preload" as="style"
 		href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
-	<link rel="stylesheet" href="CSS/estils.css">
-	<link rel="stylesheet" href="CSS/estils-movils.css">
 	<link rel="preload" as="image" href="media/logo.webp">
 	<link rel="preload" as="image" href="media/fons_apartament.webp">
-
-	<!-- Critical CSS inline para el LCP -->
-	<style>
-		.intro {
-			text-align: center;
-			padding: 2em;
-			background-color: var(--background-color);
-		}
-
-		.intro h1,
-		.intro h2 {
-			margin: 0.5em 0;
-			font-family: 'Roboto', sans-serif;
-		}
-	</style>
+	<link rel="stylesheet" href="CSS/estils.css">
+	<link rel="stylesheet" href="CSS/estils-movils.css">
+	<link rel="stylesheet" href="CSS/estils-apartaments.css">
 
 	<!-- Non-critical CSS loaded asynchronously -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
@@ -77,11 +60,11 @@
 				<span></span>
 			</label>
 			<nav class="menu-items" aria-label="Menú de navegació">
-				<a href="#intro">INICI</a>
-				<a href="#testimonials">OPINIONS</a>
+				<a href="index.html#intro">INICI</a>
+				<a href="index.html#testimonials">OPINIONS</a>
 				<a href="apartaments.html">APARTAMENTS</a>
 				<a href="activitats.html">ACTIVITATS</a>
-				<a href="whereami.html">ON SOM</a>
+				<a href="localitzacio.html">ON SOM</a>
 				<div class="contact-wrapper">
 					<a href="#" class="contact-trigger">CONTACTA!</a>
 					<div class="contact-submenu">
@@ -109,47 +92,47 @@
 		</div>
 	</header>
 
-	<!-- Background Video Section -->
-
-	<section class="video-background" id="intro">
-		<video autoplay muted loop preload="auto" class="video-element">
-			<source src="media/video.webm" type="video/webm">
-			El teu navegador no suporta el vídeo HTML5.
-		</video>
-		<div class="video-overlay">
-			<h1>Viu la Cerdanya</h1>
-			<p>Descobreix els nostres apartaments a Llívia</p>
-		</div>
-	</section>
-
-	<!-- Intro Section -->
-	<main>
-		<!-- Intro Section moved before video for better LCP -->
-		<section class="intro">
-			<h1>APARTAMENTS J. MIQUEL</h1>
-			<h2>Lloguer d'Apartaments a Llívia</h2>
-			<p><strong>Lloguer d'apartaments en una ubicació privilegiada a la Cerdanya. Gaudeix d'una estada
-					envolturada de natura i aventures. Tant si busques un cap de setmana relaxant, una escapada curta, o
-					un lloguer
-					de temporada, t'oferim l'espai ideal per desconnectar i viure moments únics.</p></strong><br>
-			<div class="gallery-container">
-				<img src="media/lliviaintro1800500.webp" alt="Imatge 1" width="800" height="500" loading="lazy">
-				<img src="media/lliviaintro2800500.webp" alt="Imatge 2" width="800" height="500" loading="lazy">
-				<img src="media/lliviaintro3800500.webp" alt="Imatge 3" width="800" height="500" loading="lazy">
-			</div>
+	<main class="apartments-main">
+		<section class="apartments-header">
+			<h1>ON ENS POTS TROBAR</h1>
+			<h2>Al cor de la Cerdanya, a Llívia</h2>
 		</section>
 
-		<!-- Testimonials Section -->
-		<section class="testimonials" id="testimonials">
-			<h2>Què diuen els nostres clients?</h2>
-			<div class="testimonials-container">
-				<div class="testimonial">
-					<p>"Un lloc perfecte per a desconnectar. Repetirem segur!"</p>
-					<span>- Maria P.</span>
+		<section class="location-content">
+			<div class="map-container">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.345745583598!2d1.9769909765723237!3d42.463269628574125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a57caf98873477%3A0x46fd7d1386b07d61!2sApartaments%20J.Miquel!5e1!3m2!1sca!2ses!4v1737223399446!5m2!1sca!2ses"
+					width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade">
+				</iframe>
+			</div>
+
+			<div class="location-info">
+				<div class="info-card">
+					<h2>Adreça</h2>
+					<p>Avinguda Catalunya, 48</p>
+					<p>17527 Llívia, Girona</p>
+					<a href="https://www.google.es/maps/dir//Apartaments+J.Miquel,+Carrer+del+Troc,+12,+17527+Ll%C3%ADvia,+Girona/@42.4633216,1.9383665,13251m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x12a57caf98873477:0x46fd7d1386b07d61!2m2!1d1.9795645!2d42.4632737?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D"
+						target="_blank" class="direction-button">
+						Com arribar-hi
+					</a>
 				</div>
-				<div class="testimonial">
-					<p>"Apartaments molt nets i amb tot el que necessites."</p>
-					<span>- Jordi L.</span>
+
+				<div class="info-card">
+					<h2>Contacte</h2>
+					<p>📞 608 840 086</p>
+					<p>✉️ apartjmiquel@hotmail.com</p>
+				</div>
+
+				<div class="info-card">
+					<h2>Punts d'interès propers</h2>
+					<ul>
+						<li>🏰 Castell de Llívia (5 min)</li>
+						<li>🏥 Farmàcia de Llívia (2 min)</li>
+						<li>🏙️ Puigcerdà (8 min)</li>
+						<li>⛷️ Estació d'esquí Font-Romeu (20 min)</li>
+						<li>🏪 Supermercat (3 min)</li>
+					</ul>
 				</div>
 			</div>
 		</section>
@@ -176,7 +159,7 @@
 	</footer>
 
 	<!-- Cookie consent banner -->
-	
+
 	<div id="cookieConsent" class="cookie-consent">
 		<div class="cookie-content">
 			<p>Utilitzem cookies per millorar la seva experiència. En continuar navegant, accepta el seu ús.</p>

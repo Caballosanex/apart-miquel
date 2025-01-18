@@ -658,3 +658,110 @@ footer {
 		padding: 0.8rem 1rem;
 	}
 }
+
+/* Estils per la pàgina de localització */
+.location-header {
+	text-align: center;
+	padding: 2rem;
+	background-color: rgba(255, 255, 255, 0.9);
+	margin-bottom: 2rem;
+}
+
+.location-header h1 {
+	color: #004d4d;
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.location-subtitle {
+	color: #666;
+	font-size: 1.2rem;
+}
+
+.location-content {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.map-container {
+	width: 100%;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	margin-bottom: 2rem;
+}
+
+.location-info {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 2rem;
+	margin-bottom: 2rem;
+}
+
+.info-card {
+	background-color: white;
+	padding: 1.5rem;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+.info-card h2 {
+	color: #004d4d;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.info-card p, 
+.info-card li {
+	color: #666;
+	margin-bottom: 0.5rem;
+	text-align: center;
+}
+
+.info-card ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.direction-button {
+	display: block;
+	margin: 1rem auto 0;
+	padding: 0.8rem 1.5rem;
+	background-color: #ff8c00;
+	color: white;
+	text-decoration: none;
+	border-radius: 4px;
+	transition: background-color 0.3s;
+	text-align: center;
+	width: fit-content;
+}
+
+.direction-button:hover {
+	background-color: #d07200;
+}
+
+.apartments-main {
+	background-image: url('../media/fons_apartament.webp');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	min-height: calc(100vh - 200px); /* Ajustem l'alçada mínima tenint en compte el header i footer */
+	padding: 2rem 0;
+}
+
+/* Fem més opac el fons blanc de les targetes per millorar la llegibilitat */
+.location-header,
+.info-card {
+	background-color: rgba(255, 255, 255, 0.95);
+	backdrop-filter: blur(5px);
+}
+
+/* Ajustem el contenidor del mapa per contrast amb el fons */
+.map-container {
+	background-color: rgba(255, 255, 255, 0.95);
+	padding: 1rem;
+}
