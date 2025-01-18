@@ -102,7 +102,6 @@ function handleDocumentClick(e) {
 		contactWrapper.classList.remove('active');
 	}
 }
-
 // Funcions d'utilitat per a les cookies
 function setCookie(name, value, days) {
 	const date = new Date();
@@ -127,7 +126,7 @@ function enableCookieFunctionality() {
 	window.addEventListener('scroll', () => {
 		clearTimeout(scrollTimer);
 		scrollTimer = setTimeout(() => {
-			setCookie('scrollPosition', window.pageYOffset, 1);
+			setCookie('scrollPosition', window.scrollY, 1);
 		}, 300);
 	});
 
