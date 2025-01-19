@@ -10,9 +10,26 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Establir l'amplada total basada en el nombre d'imatges
 	mainImg.style.width = `${numImages * 100}%`;
 
-	// Establir l'amplada individual de cada imatge
+	// Configurar cada imatge individualment
 	images.forEach(img => {
 		img.style.width = `${100 / numImages}%`;
+		
+		// Afegim gestió per imatges verticals
+		img.addEventListener('load', function() {
+			if (this.naturalHeight > this.naturalWidth) {
+				// És una imatge vertical
+				this.style.width = 'auto';  // Eliminem l'amplada forçada
+				this.style.height = '100%'; // Ajustem l'altura al 100% del contenidor
+				this.style.maxWidth = '100%'; // Evitem que sobresurti del contenidor
+				this.style.objectFit = 'contain'; // Mantenim la relació d'aspecte
+				this.style.margin = '0 auto'; // Centrem horitzontalment
+			} else {
+				// És una imatge horitzontal
+				this.style.width = `${100 / numImages}%`;
+				this.style.height = 'auto';
+				this.style.objectFit = 'cover';
+			}
+		});
 	});
 
 	// Event listeners per als radio buttons
