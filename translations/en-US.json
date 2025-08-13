@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Apartaments J.Miquel | Apartment Rental Llivia",
+    "description": "Apartment rental in Llivia: rural tourism, adventure sports and relaxation.",
+    "keywords": "rental, vacation, apartments, Llivia, rural tourism, Cerdanya"
+  },
+  "navigation": {
+    "home": "HOME",
+    "testimonials": "REVIEWS",
+    "apartments": "APARTMENTS",
+    "about": "ABOUT US",
+    "location": "LOCATION",
+    "contact": "CONTACT!",
+    "viaEmail": "Via EMAIL",
+    "viaPhone": "Via Phone"
+  },
+  "hero": {
+    "title": "Experience Cerdanya",
+    "subtitle": "Discover our apartments in Llívia"
+  },
+  "intro": {
+    "title": "APARTAMENTS J. MIQUEL",
+    "subtitle": "Apartment Rental in Llívia",
+    "description": "Apartment rental in a privileged location in Cerdanya. Enjoy a stay surrounded by nature and adventures. Whether you're looking for a relaxing weekend, a short getaway, or seasonal rental, we offer the ideal space to disconnect and live unique moments."
+  },
+  "testimonials": {
+    "title": "What do our clients say?",
+    "quote1": "A perfect place to disconnect. We'll definitely come back!",
+    "author1": "Maria P.",
+    "quote2": "Very clean apartments with everything you need.",
+    "author2": "Jordi L."
+  },
+  "apartments": {
+    "title": "RENTAL APARTMENTS",
+    "viewImages": "View images",
+    "apartmentGirona": "GIRONA APARTMENT",
+    "apartmentLlauro": "LLAURÓ APARTMENT",
+    "apartmentMbp": "MBP APARTMENT",
+    "apartmentMunoz1": "MUÑOZ 1 APARTMENT",
+    "apartmentMunoz2": "MUÑOZ 2 APARTMENT",
+    "apartmentOrlando": "ORLANDO APARTMENT",
+    "apartmentPirineu": "PIRINEU APARTMENT",
+    "apartmentTroc": "TROC APARTMENT",
+    "locationGirona": "Carrer les Bulloses",
+    "locationLlauro": "Carrer Encorones",
+    "locationMbp": "Avinguda Catalunya",
+    "locationMunoz": "Carrer Muñoz",
+    "locationOrlando": "Carrer Orlando",
+    "locationPirineu": "Carrer Pirineu",
+    "locationTroc": "Avinguda Catalunya",
+    "descriptionGirona": "Ground Floor Duplex. Completely renovated. Capacity for 5 people, 1 Bathroom and 1 Toilet and 2 bedrooms. Parking and storage room. Community area with pool, tennis and private terrace. Very sunny.",
+    "descriptionLlauro": "First Floor with capacity for 5 people. 2 Bedrooms, Kitchen-Dining room with fireplace and 1 Bathroom. Community area with pool and tennis, completely renovated with parking and storage room. Family atmosphere.",
+    "descriptionMbp": "Ground Floor of 70 m2 with capacity for 7 people, 3 Bedrooms, 1 Bathroom and 1 Toilet. Living-Dining room and a large Kitchen. Parking and storage room. Community area with Pool and tennis with private terrace.",
+    "descriptionMunoz1": "First Floor with capacity for 5 people. 2 Bedrooms, Kitchen-Dining room with fireplace and 1 Bathroom, parking and terrace. Features community garden with pool and tennis court.",
+    "descriptionOrlando": "Penthouse of 90 m2, Duplex with capacity for 7 people with 3 Bedrooms, Kitchen, Living-Dining room with fireplace and 2 Bathrooms. Parking and storage room. Community area with pool and tennis. Very spacious and cozy.",
+    "descriptionPirineu": "First Floor of 40 m2 with capacity for 2 people. 1 double bedroom, Kitchen-Dining room with fireplace, 1 Bathroom, parking and Terrace. Very cozy and sunny.",
+    "descriptionMunoz2": "1st floor with capacity for 5 people. Kitchen-Dining room, 1 Bathroom, and private terrace with 3 bedrooms. With storage room and parking.",
+    "descriptionTroc": "Ground Floor of 95 m2 with capacity for 8 people, very spacious. 2 large Bathrooms, 4 bedrooms, kitchen-dining room with fireplace. Community area and private terrace, parking and storage room."
+  },
+  "about": {
+    "title": "OUR STORY",
+    "subtitle": "Since 1975 making you feel at home",
+    "beginningsTitle": "OUR BEGINNINGS",
+    "beginningsText": "It all started in 1975 when grandfather Miquel decided to share the beauty of Llívia with other families. What began as a small family business has become a reference for accommodation in the area, always maintaining the close spirit that characterizes us.",
+    "valuesTitle": "OUR VALUES",
+    "value1": "🏠 Family and welcoming atmosphere",
+    "value2": "💝 Close and personalized treatment",
+    "value3": "✨ Attention to detail",
+    "value4": "🤝 Commitment to our clients",
+    "missionTitle": "OUR MISSION",
+    "missionText": "To offer a unique and comfortable experience, making every stay special. We want our apartments to be your second home in Cerdanya, a place to create unforgettable memories with family and friends.",
+    "qualityTitle": "QUALITY AND COMFORT",
+    "qualityText": "All our apartments are fully equipped and carefully maintained. Our experience of more than 45 years allows us to anticipate your needs and offer you everything you need to enjoy your vacation."
+  },
+  "location": {
+    "title": "WHERE TO FIND US",
+    "subtitle": "In the heart of Cerdanya, in Llívia",
+    "addressTitle": "Address",
+    "address1": "C/Troc, 12. Staircase E, ground floor 2a",
+    "address2": "17527 Llívia, Girona",
+    "directions": "How to get there",
+    "contactTitle": "Contact",
+    "interestTitle": "Nearby points of interest",
+    "interest1": "🏰 Llívia Castle (5 min)",
+    "interest2": "🏥 Llívia Pharmacy (2 min)",
+    "interest3": "🏙️ Puigcerdà (8 min)",
+    "interest4": "⛷️ Font-Romeu Ski Resort (20 min)",
+    "interest5": "🏪 Supermarket (3 min)"
+  },
+  "cookies": {
+    "message": "We use cookies to improve your experience. By continuing to browse, you accept their use.",
+    "accept": "Accept",
+    "reject": "Reject",
+    "moreInfo": "More info",
+    "policyTitle": "Cookie Policy",
+    "responsibleTitle": "Data Controller",
+    "dataProtection": "Data Protection Officer: monialp2500@gmail.com",
+    "usageTitle": "Use of Cookies",
+    "usageText1": "Access to this website may involve the use of cookies. Cookies are small amounts of information that are stored in the browser used by each user so that the server can remember certain information that it can later use. This information allows us to identify you as a specific user and allows us to save your personal preferences, as well as technical information such as visits or specific pages you visit.",
+    "usageText2": "The legitimacy for the use of cookies is based on article 6.1.f of the GDPR: legitimate interest by 3 BLAGAR SL to ensure the proper functioning and continuous improvement of the website.",
+    "whatAreTitle": "What are Cookies?",
+    "whatAreText": "Cookies are small text files that websites install in the user's browser to record their activity and personalize their browsing experience. Cookies can improve navigation by remembering website preferences and settings, such as preferred language or login credentials. They can also provide information to site owners about user traffic patterns and behavior, allowing for continuous improvement of the digital experience.",
+    "usedTitle": "Cookies Used",
+    "ownCookiesTitle": "Own Cookies",
+    "tableName": "Name",
+    "tablePurpose": "Purpose",
+    "tableDuration": "Duration",
+    "consentPurpose": "Stores the user's preference on cookie acceptance",
+    "consentDuration": "365 days",
+    "scrollPurpose": "Saves scroll position to improve browsing experience",
+    "scrollDuration": "1 day",
+    "languagePurpose": "Stores the user's selected language to personalize the experience",
+    "languageDuration": "30 days",
+    "disableTitle": "How to Disable Cookies",
+    "disableText": "You can disable cookies by adjusting your browser settings. Please note that some website functionality may not work properly. Here are the links to instructions for the most popular browsers:"
+  },
+  "language": {
+    "autoDetected": "We detected that you prefer English. Do you want to continue with this language?",
+    "confirm": "Yes, continue",
+    "change": "Change language",
+    "selectLanguage": "Select language"
+  },
+  "footer": {
+    "copyright": "All rights reserved."
+  }
+}

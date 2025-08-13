@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="CSS/estils.css">
 	<link rel="stylesheet" href="CSS/estils-movils.css">
 	<link rel="stylesheet" href="CSS/estils-apartaments.css">
+	<link rel="stylesheet" href="CSS/language.css">
 
 	<!-- Non-critical CSS loaded asynchronously -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
@@ -29,7 +30,7 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="media/casa.ico">
 
-	<title>Apartaments J.Miquel | Lloguer Apartaments Llivia</title>
+	<title data-translate="meta.title">Apartaments J.Miquel | Lloguer Apartaments Llivia</title>
 </head>
 
 <body>
@@ -60,19 +61,19 @@
 				<span></span>
 			</label>
 			<nav class="menu-items" aria-label="Menú de navegació">
-				<a href="index.html#intro">INICI</a>
-				<a href="index.html#testimonials">OPINIONS</a>
-				<a href="apartaments.html">APARTAMENTS</a>
-				<a href="aboutus.html">QUI SOM</a>
-				<a href="whereami.html">ON SOM</a>
+				<a href="index.html#intro" data-translate="navigation.home">INICI</a>
+				<a href="index.html#testimonials" data-translate="navigation.testimonials">OPINIONS</a>
+				<a href="apartaments.html" data-translate="navigation.apartments">APARTAMENTS</a>
+				<a href="aboutus.html" data-translate="navigation.about">QUI SOM</a>
+				<a href="whereami.html" data-translate="navigation.location">ON SOM</a>
 				<div class="contact-wrapper">
-					<a href="#" class="contact-trigger">CONTACTA!</a>
+					<a href="#" class="contact-trigger" data-translate="navigation.contact">CONTACTA!</a>
 					<div class="contact-submenu">
 						<a href="mailto:apartjmiquel@hotmail.com" class="contact-option email-option">
 							<div class="contact-content">
 								<div class="contact-line">
 									<span class="contact-icon">✉️</span>
-									<span class="contact-text">Via E-MAIL</span>
+									<span class="contact-text" data-translate="navigation.viaEmail">Via E-MAIL</span>
 								</div>
 								<div class="contact-detail">apartjmiquel@hotmail.com</div>
 							</div>
@@ -81,7 +82,7 @@
 							<div class="contact-content">
 								<div class="contact-line">
 									<span class="contact-icon">📞</span>
-									<span class="contact-text">Via Telèfon</span>
+									<span class="contact-text" data-translate="navigation.viaPhone">Via Telèfon</span>
 								</div>
 								<div class="contact-detail">628 605 545</div>
 							</div>
@@ -94,8 +95,8 @@
 
 	<main class="apartments-main">
 		<section class="apartments-header">
-			<h1>ON ENS POTS TROBAR</h1>
-			<h2>Al cor de la Cerdanya, a Llívia</h2>
+			<h1 data-translate="location.title">ON ENS POTS TROBAR</h1>
+			<h2 data-translate="location.subtitle">Al cor de la Cerdanya, a Llívia</h2>
 		</section>
 
 		<section class="page-section location-section">
@@ -109,30 +110,30 @@
 
 			<div class="content-grid">
 				<div class="content-card">
-					<h2 class="section-title">Adreça</h2>
-					<p>C/Troc, 12. Escala E, baixos 2a</p>
-					<p>17527 Llívia, Girona</p>
+					<h2 class="section-title" data-translate="location.addressTitle">Adreça</h2>
+					<p data-translate="location.address1">C/Troc, 12. Escala E, baixos 2a</p>
+					<p data-translate="location.address2">17527 Llívia, Girona</p>
 					<a href="https://www.google.es/maps/dir//Apartaments+J.Miquel,+Carrer+del+Troc,+12,+17527+Ll%C3%ADvia,+Girona/@42.4633216,1.9383665,13251m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x12a57caf98873477:0x46fd7d1386b07d61!2m2!1d1.9795645!2d42.4632737?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D"
 						target="_blank" class="direction-button">
-						Com arribar-hi
+						<span data-translate="location.directions">Com arribar-hi</span>
 					</a>
 				</div>
 
 				<div class="content-card">
-					<h2 class="section-title">Contacte</h2>
+					<h2 class="section-title" data-translate="location.contactTitle">Contacte</h2>
 					<p>📞 628 605 545</p>
 					<p>📞 972 146 012</p>
 					<p>✉️ apartjmiquel@hotmail.com</p>
 				</div>
 
 				<div class="content-card">
-					<h2 class="section-title">Punts d'interès propers</h2>
+					<h2 class="section-title" data-translate="location.interestTitle">Punts d'interès propers</h2>
 					<ul>
-						<li>🏰 Castell de Llívia (5 min)</li>
-						<li>🏥 Farmàcia de Llívia (2 min)</li>
-						<li>🏙️ Puigcerdà (8 min)</li>
-						<li>⛷️ Estació d'esquí Font-Romeu (20 min)</li>
-						<li>🏪 Supermercat (3 min)</li>
+						<li data-translate="location.interest1">🏰 Castell de Llívia (5 min)</li>
+						<li data-translate="location.interest2">🏥 Farmàcia de Llívia (2 min)</li>
+						<li data-translate="location.interest3">🏙️ Puigcerdà (8 min)</li>
+						<li data-translate="location.interest4">⛷️ Estació d'esquí Font-Romeu (20 min)</li>
+						<li data-translate="location.interest5">🏪 Supermercat (3 min)</li>
 					</ul>
 				</div>
 			</div>
@@ -141,7 +142,7 @@
 
 	<!-- Footer -->
 	<footer>
-		<p>&copy; <span id="currentYear"></span> Apartaments J. Miquel. Tots els drets reservats.</p>
+		<p>&copy; <span id="currentYear"></span> Apartaments J. Miquel. <span data-translate="footer.copyright">Tots els drets reservats.</span></p>
 	</footer>
 
 	<!-- Sticky Footer for Social Buttons -->
@@ -163,17 +164,18 @@
 
 	<div id="cookieConsent" class="cookie-consent">
 		<div class="cookie-content">
-			<p>Utilitzem cookies per millorar la seva experiència. En continuar navegant, accepta el seu ús.</p>
+			<p data-translate="cookies.message">Utilitzem cookies per millorar la seva experiència. En continuar navegant, accepta el seu ús.</p>
 			<div class="cookie-buttons">
-				<button id="acceptCookies" class="cookie-accept" aria-label="Acceptar cookies">Acceptar</button>
-				<button id="rejectCookies" class="cookie-reject" aria-label="Rebutjar cookies">Rebutjar</button>
+				<button id="acceptCookies" class="cookie-accept" aria-label="Acceptar cookies" data-translate="cookies.accept" data-translate-aria="cookies.accept">Acceptar</button>
+				<button id="rejectCookies" class="cookie-reject" aria-label="Rebutjar cookies" data-translate="cookies.reject" data-translate-aria="cookies.reject">Rebutjar</button>
 				<button id="cookieInfo" class="cookie-info" onclick="window.location.href='cookiesinfo.html'"
-					aria-label="Més informació sobre cookies">Més info</button>
+					aria-label="Més informació sobre cookies" data-translate="cookies.moreInfo" data-translate-aria="cookies.moreInfo">Més info</button>
 			</div>
 		</div>
 	</div>
 
 	<!-- Load JavaScript asynchronously -->
+	<script src="js/language.js" defer></script>
 	<script src="js/header&cookies.js" defer></script>
 
 </body>

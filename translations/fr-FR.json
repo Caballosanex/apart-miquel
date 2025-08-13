@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Appartements J.Miquel | Location Appartements Llivia",
+    "description": "Location d'appartements à Llivia: tourisme rural, sports d'aventure et détente.",
+    "keywords": "location, vacances, appartements, Llivia, tourisme rural, Cerdagne"
+  },
+  "navigation": {
+    "home": "ACCUEIL",
+    "testimonials": "AVIS",
+    "apartments": "APPARTEMENTS",
+    "about": "QUI NOUS SOMMES",
+    "location": "OÙ NOUS TROUVER",
+    "contact": "CONTACT!",
+    "viaEmail": "Par EMAIL",
+    "viaPhone": "Par Téléphone"
+  },
+  "hero": {
+    "title": "Vivez la Cerdagne",
+    "subtitle": "Découvrez nos appartements à Llívia"
+  },
+  "intro": {
+    "title": "APPARTEMENTS J. MIQUEL",
+    "subtitle": "Location d'Appartements à Llívia",
+    "description": "Location d'appartements dans un emplacement privilégié en Cerdagne. Profitez d'un séjour entouré de nature et d'aventures. Que vous recherchiez un week-end relaxant, une escapade courte, ou une location saisonnière, nous vous offrons l'espace idéal pour vous déconnecter et vivre des moments uniques."
+  },
+  "testimonials": {
+    "title": "Que disent nos clients?",
+    "quote1": "Un endroit parfait pour déconnecter. Nous reviendrons c'est sûr!",
+    "author1": "Maria P.",
+    "quote2": "Appartements très propres et avec tout ce dont vous avez besoin.",
+    "author2": "Jordi L."
+  },
+  "apartments": {
+    "title": "APPARTEMENTS À LOUER",
+    "viewImages": "Voir les images",
+    "apartmentGirona": "APPARTEMENT GIRONA",
+    "apartmentLlauro": "APPARTEMENT LLAURÓ",
+    "apartmentMbp": "APPARTEMENT MBP",
+    "apartmentMunoz1": "APPARTEMENT MUÑOZ 1",
+    "apartmentMunoz2": "APPARTEMENT MUÑOZ 2",
+    "apartmentOrlando": "APPARTEMENT ORLANDO",
+    "apartmentPirineu": "APPARTEMENT PYRÉNÉES",
+    "apartmentTroc": "APPARTEMENT TROC",
+    "locationGirona": "Rue les Bulloses",
+    "locationLlauro": "Rue Encorones",
+    "locationMbp": "Avenue Catalunya",
+    "locationMunoz": "Rue Muñoz",
+    "locationOrlando": "Rue Orlando",
+    "locationPirineu": "Rue Pyrénées",
+    "locationTroc": "Avenue Catalunya",
+    "descriptionGirona": "Rez-de-chaussée Duplex. Entièrement rénové. Capacité pour 5 personnes, 1 Salle de bain et 1 WC et 2 chambres. Parking et débarras. Zone communautaire avec piscine, tennis et terrasse privée. Très ensoleillé.",
+    "descriptionLlauro": "Premier étage avec capacité pour 5 personnes. 2 Chambres, Cuisine-Salle à manger avec cheminée et 1 Salle de bain. Zone communautaire avec piscine et tennis, entièrement rénové avec parking et débarras. Atmosphère familiale.",
+    "descriptionMbp": "Rez-de-chaussée de 70 m2 avec capacité pour 7 personnes, 3 Chambres, 1 Salle de bain et 1 WC. Salon-Salle à manger et une grande Cuisine. Parking et débarras. Zone communautaire avec Piscine et tennis avec terrasse privée.",
+    "descriptionMunoz1": "Premier étage avec capacité pour 5 personnes. 2 Chambres, Cuisine-Salle à manger avec cheminée et 1 Salle de bain, parking et terrasse. Dispose d'un jardin communautaire avec piscine et court de tennis.",
+    "descriptionOrlando": "Penthouse de 90 m2, Duplex avec capacité pour 7 personnes avec 3 Chambres, Cuisine, Salon-Salle à manger avec cheminée et 2 Salles de bain. Parking et débarras. Zone communautaire avec piscine et tennis. Très spacieux et accueillant.",
+    "descriptionPirineu": "Premier étage de 40 m2 avec capacité pour 2 personnes. 1 chambre double, Cuisine-Salle à manger avec cheminée, 1 Salle de bain, parking et Terrasse. Très accueillant et ensoleillé.",
+    "descriptionMunoz2": "1er étage avec capacité pour 5 personnes. Cuisine-Salle à manger, 1 Salle de bain, et terrasse privée avec 3 chambres. Avec débarras et parking.",
+    "descriptionTroc": "Rez-de-chaussée de 95 m2 avec capacité pour 8 personnes, très spacieux. 2 grandes Salles de bain, 4 chambres, cuisine-salle à manger avec cheminée. Zone communautaire et terrasse privée, parking et débarras."
+  },
+  "about": {
+    "title": "NOTRE HISTOIRE",
+    "subtitle": "Depuis 1975, nous vous faisons vous sentir comme chez vous",
+    "beginningsTitle": "NOS DÉBUTS",
+    "beginningsText": "Tout a commencé en 1975 quand grand-père Miquel a décidé de partager la beauté de Llívia avec d'autres familles. Ce qui a commencé comme une petite entreprise familiale est devenu une référence d'hébergement dans la région, en maintenant toujours l'esprit proche qui nous caractérise.",
+    "valuesTitle": "NOS VALEURS",
+    "value1": "🏠 Atmosphère familiale et accueillante",
+    "value2": "💝 Traitement proche et personnalisé",
+    "value3": "✨ Attention aux détails",
+    "value4": "🤝 Engagement envers nos clients",
+    "missionTitle": "NOTRE MISSION",
+    "missionText": "Offrir une expérience unique et confortable, rendant chaque séjour spécial. Nous voulons que nos appartements soient votre deuxième maison en Cerdagne, un lieu pour créer des souvenirs inoubliables avec la famille et les amis.",
+    "qualityTitle": "QUALITÉ ET CONFORT",
+    "qualityText": "Tous nos appartements sont entièrement équipés et soigneusement entretenus. Notre expérience de plus de 45 ans nous permet d'anticiper vos besoins et de vous offrir tout ce dont vous avez besoin pour profiter de vos vacances."
+  },
+  "location": {
+    "title": "OÙ NOUS TROUVER",
+    "subtitle": "Au cœur de la Cerdagne, à Llívia",
+    "addressTitle": "Adresse",
+    "address1": "C/Troc, 12. Escalier E, rez-de-chaussée 2a",
+    "address2": "17527 Llívia, Girona",
+    "directions": "Comment s'y rendre",
+    "contactTitle": "Contact",
+    "interestTitle": "Points d'intérêt proches",
+    "interest1": "🏰 Château de Llívia (5 min)",
+    "interest2": "🏥 Pharmacie de Llívia (2 min)",
+    "interest3": "🏙️ Puigcerdà (8 min)",
+    "interest4": "⛷️ Station de ski Font-Romeu (20 min)",
+    "interest5": "🏪 Supermarché (3 min)"
+  },
+  "cookies": {
+    "message": "Nous utilisons des cookies pour améliorer votre expérience. En continuant à naviguer, vous acceptez leur utilisation.",
+    "accept": "Accepter",
+    "reject": "Rejeter",
+    "moreInfo": "Plus d'infos",
+    "policyTitle": "Politique des Cookies",
+    "responsibleTitle": "Responsable du Traitement",
+    "dataProtection": "Délégué à la Protection des Données: monialp2500@gmail.com",
+    "usageTitle": "Utilisation des Cookies",
+    "usageText1": "L'accès à ce site web peut impliquer l'utilisation de cookies. Les cookies sont de petites quantités d'informations qui sont stockées dans le navigateur utilisé par chaque utilisateur pour que le serveur se souvienne de certaines informations qu'il pourra utiliser ultérieurement. Cette information permet de l'identifier comme un utilisateur spécifique et permet de sauvegarder ses préférences personnelles, ainsi que des informations techniques telles que les visites ou les pages spécifiques qu'il visite.",
+    "usageText2": "La légitimité pour l'utilisation des cookies est basée sur l'article 6.1.f du RGPD: intérêt légitime de la part de 3 BLAGAR SL pour garantir le bon fonctionnement et l'amélioration continue du site web.",
+    "whatAreTitle": "Que sont les Cookies?",
+    "whatAreText": "Les cookies sont de petits fichiers texte que les sites web installent dans le navigateur de l'utilisateur pour enregistrer son activité et personnaliser son expérience de navigation. Les cookies peuvent améliorer la navigation en se souvenant des préférences et paramètres du site web, comme la langue préférée ou les identifiants de connexion. Ils peuvent également fournir des informations aux propriétaires du site sur les modèles de trafic et le comportement des utilisateurs, permettant d'améliorer constamment l'expérience numérique.",
+    "usedTitle": "Cookies Utilisés",
+    "ownCookiesTitle": "Cookies Propres",
+    "tableName": "Nom",
+    "tablePurpose": "Finalité",
+    "tableDuration": "Durée",
+    "consentPurpose": "Stocke la préférence de l'utilisateur sur l'acceptation des cookies",
+    "consentDuration": "365 jours",
+    "scrollPurpose": "Sauvegarde la position de défilement pour améliorer l'expérience de navigation",
+    "scrollDuration": "1 jour",
+    "languagePurpose": "Stocke la langue sélectionnée par l'utilisateur pour personnaliser l'expérience",
+    "languageDuration": "30 jours",
+    "disableTitle": "Comment Désactiver les Cookies",
+    "disableText": "Vous pouvez désactiver les cookies en ajustant les paramètres de votre navigateur. Veuillez noter que certaines fonctionnalités du site web pourraient ne pas fonctionner correctement. Voici les liens vers les instructions des navigateurs les plus populaires:"
+  },
+  "language": {
+    "autoDetected": "Nous avons détecté que vous préférez le français. Voulez-vous continuer avec cette langue?",
+    "confirm": "Oui, continuer",
+    "change": "Changer de langue",
+    "selectLanguage": "Sélectionner la langue"
+  },
+  "footer": {
+    "copyright": "Tous droits réservés."
+  }
+}

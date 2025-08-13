@@ -94,4 +94,11 @@
 		max-width: 100%;
 		overflow-x: hidden;
 	}
+
+	/* Simple fix for email overflow in mobile contact menu */
+	.email-option .contact-detail {
+		font-size: 11px !important;
+		word-spacing: -1px;
+		letter-spacing: -0.2px;
+	}
 }

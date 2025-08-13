@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Apartaments J.Miquel | Lloguer Apartaments Llivia",
+    "description": "Lloguer d'apartaments a Llivia: turisme rural, esports d'aventura i relax.",
+    "keywords": "lloguer, vacances, apartaments, Llivia, turisme rural, Cerdanya"
+  },
+  "navigation": {
+    "home": "INICI",
+    "testimonials": "OPINIONS",
+    "apartments": "APARTAMENTS",
+    "about": "QUI SOM",
+    "location": "ON SOM",
+    "contact": "CONTACTA!",
+    "viaEmail": "Via E-MAIL",
+    "viaPhone": "Via Telèfon"
+  },
+  "hero": {
+    "title": "Viu la Cerdanya",
+    "subtitle": "Descobreix els nostres apartaments a Llívia"
+  },
+  "intro": {
+    "title": "APARTAMENTS J. MIQUEL",
+    "subtitle": "Lloguer d'Apartaments a Llívia",
+    "description": "Lloguer d'apartaments en una ubicació privilegiada a la Cerdanya. Gaudeix d'una estada envoltat/da de natura i aventures. Tant si busques un cap de setmana relaxant, una escapada curta, o un lloguer de temporada, t'oferim l'espai ideal per desconnectar i viure moments únics."
+  },
+  "testimonials": {
+    "title": "Què diuen els nostres clients?",
+    "quote1": "Un lloc perfecte per a desconnectar. Repetirem segur!",
+    "author1": "Maria P.",
+    "quote2": "Apartaments molt nets i amb tot el que necessites.",
+    "author2": "Jordi L."
+  },
+  "apartments": {
+    "title": "APARTAMENTS DE LLOGUER",
+    "viewImages": "Veure imatges",
+    "apartmentGirona": "APARTAMENT GIRONA",
+    "apartmentLlauro": "APARTAMENT LLAURÓ",
+    "apartmentMbp": "APARTAMENT MBP",
+    "apartmentMunoz1": "APARTAMENT MUÑOZ 1",
+    "apartmentMunoz2": "APARTAMENT MUÑOZ 2",
+    "apartmentOrlando": "APARTAMENT ORLANDO",
+    "apartmentPirineu": "APARTAMENT PIRINEU",
+    "apartmentTroc": "APARTAMENT TROC",
+    "locationGirona": "Carrer les Bulloses",
+    "locationLlauro": "Carrer Encorones",
+    "locationMbp": "Avinguda Catalunya",
+    "locationMunoz": "Carrer Muñoz",
+    "locationOrlando": "Carrer Orlando",
+    "locationPirineu": "Carrer Pirineu",
+    "locationTroc": "Avinguda Catalunya",
+    "descriptionGirona": "Planta Baixa Dúplex. Totalment reformat. Capacitat per a 5 persones, 1 Bany i 1 Lavabo i 2 habitacións. Pàrquing i traster. Zona comunitària amb piscina, tenis i terrassa particular. Molt assolellat.",
+    "descriptionLlauro": "Primera Planta amb capacitat per a 5 persones. 2 Habitacions, Cuina-Menjador amb llar de foc i 1 Bany. Zona comunitària amb piscina i tenis, totalment reformat amb pàrquing i traster. Ambient Familiar.",
+    "descriptionMbp": "Planta Baixa de 70 m2 amb capacitat per a 7 persones, 3 Habitacions, 1 Bany i 1 Lavabo. Saló-Menjador i una gran Cuina. Pàrquing i traster. Zona comunitaria amb Piscina i tenis amb terrassa particular.",
+    "descriptionMunoz1": "Primera Planta amb capacitat per a 5 persones. 2 Habitacions, Cuina-Menjador amb llar de foc i 1 Bany, pàrquing i terrassa. Disposa de jardí comunitari amb piscina i pista de tenis.",
+    "descriptionOrlando": "Àtic de 90 m2, Dúplex amb capacitat per a 7 persones amb 3 Habitacions, Cuina, Saló-Menjador amb llar de foc i 2 Banys. Pàrquing i traster. Zona comunitària amb piscina i tenis. Molt ampli i acollidor.",
+    "descriptionPirineu": "Primera Planta de 40 m2 amb capacitat per a 2 persones. 1 habitació doble, Cuina-Menjador amb llar de foc, 1 Bany, pàrquing i Terrassa. Molt acollidor i assolellat.",
+    "descriptionMunoz2": "1era planta amb capacitat per a 5 persones. Cuina-Menjador, 1 Bany, i terrassa particular amb 3 habitacións. Amb traster i pàrquing.",
+    "descriptionTroc": "Planta Baixa de 95 m2 amb capacitat per a 8 persones, molt ampli. 2 Banys grans, 4 habitacións, cuina-menjador amb llar de foc. Zona comunitària i terrassa particular, pàrquing i traster."
+  },
+  "about": {
+    "title": "LA NOSTRA HISTÒRIA",
+    "subtitle": "Des de 1975 fent-vos sentir com a casa",
+    "beginningsTitle": "ELS NOSTRES INICIS",
+    "beginningsText": "Tot va començar el 1975 quan l'avi Miquel va decidir compartir la bellesa de Llívia amb altres famílies. El que va començar com un petit negoci familiar s'ha convertit en un referent d'allotjament a la zona, mantenint sempre l'esperit proper que ens caracteritza.",
+    "valuesTitle": "ELS NOSTRES VALORS",
+    "value1": "🏠 Ambient familiar i acollidor",
+    "value2": "💝 Tracte proper i personalitzat",
+    "value3": "✨ Cura pels detalls",
+    "value4": "🤝 Compromís amb els nostres clients",
+    "missionTitle": "LA NOSTRA MISSIÓ",
+    "missionText": "Oferir una experiència única i confortable, fent que cada estada sigui especial. Volem que els nostres apartaments siguin la vostra segona llar a la Cerdanya, un lloc on crear records inoblidables amb la família i amics.",
+    "qualityTitle": "QUALITAT I CONFORT",
+    "qualityText": "Tots els nostres apartaments estan completament equipats i mantinguts amb cura. La nostra experiència de més de 45 anys ens permet anticipar-nos a les vostres necessitats i oferir-vos tot el que necessiteu per gaudir de les vostres vacances."
+  },
+  "location": {
+    "title": "ON ENS POTS TROBAR",
+    "subtitle": "Al cor de la Cerdanya, a Llívia",
+    "addressTitle": "Adreça",
+    "address1": "C/Troc, 12. Escala E, baixos 2a",
+    "address2": "17527 Llívia, Girona",
+    "directions": "Com arribar-hi",
+    "contactTitle": "Contacte",
+    "interestTitle": "Punts d'interès propers",
+    "interest1": "🏰 Castell de Llívia (5 min)",
+    "interest2": "🏥 Farmàcia de Llívia (2 min)",
+    "interest3": "🏙️ Puigcerdà (8 min)",
+    "interest4": "⛷️ Estació d'esquí Font-Romeu (20 min)",
+    "interest5": "🏪 Supermercat (3 min)"
+  },
+  "cookies": {
+    "message": "Utilitzem cookies per millorar la seva experiència. En continuar navegant, accepta el seu ús.",
+    "accept": "Acceptar",
+    "reject": "Rebutjar",
+    "moreInfo": "Més info",
+    "policyTitle": "Política de Cookies",
+    "responsibleTitle": "Responsable del Tractament",
+    "dataProtection": "Delegat de Protecció de Dades: monialp2500@gmail.com",
+    "usageTitle": "Ús de Cookies",
+    "usageText1": "L'accés a aquest lloc web pot implicar la utilització de cookies. Les cookies són petites quantitats d'informació que s'emmagatzemen al navegador utilitzat per cada usuari perquè el servidor recordi certa informació que posteriorment pugui utilitzar. Aquesta informació permet identificar-lo com un usuari concret i permet guardar les seves preferències personals, així com informació tècnica com poden ser visites o pàgines concretes que visiti.",
+    "usageText2": "La legitimació per a l'ús de les cookies es basa en l'article 6.1.f del RGPD: interès legítim per part de 3 BLAGAR SL per garantir el correcte funcionament i la millora contínua del lloc web.",
+    "whatAreTitle": "Què són les Cookies?",
+    "whatAreText": "Les cookies són petits arxius de text que els llocs web instal·len al navegador de l'usuari per registrar la seva activitat i personalitzar la seva experiència de navegació. Les cookies poden millorar la navegació recordant les preferències i configuracions del lloc web, com l'idioma preferit o les credencials d'accés. També poden proporcionar informació als propietaris del lloc sobre els patrons de trànsit i comportament dels usuaris, permetent millorar constantment l'experiència digital.",
+    "usedTitle": "Cookies Utilitzades",
+    "ownCookiesTitle": "Cookies Pròpies",
+    "tableName": "Nom",
+    "tablePurpose": "Finalitat",
+    "tableDuration": "Duració",
+    "consentPurpose": "Emmagatzema la preferència de l'usuari sobre l'acceptació de cookies",
+    "consentDuration": "365 dies",
+    "scrollPurpose": "Guarda la posició de desplaçament per millorar l'experiència de navegació",
+    "scrollDuration": "1 dia",
+    "languagePurpose": "Emmagatzema l'idioma seleccionat per l'usuari per personalitzar l'experiència",
+    "languageDuration": "30 dies",
+    "disableTitle": "Com Deshabilitar les Cookies",
+    "disableText": "Pot deshabilitar les cookies ajustant la configuració del seu navegador. Tingui en compte que algunes funcionalitats del lloc web podrien no funcionar correctament. Aquí té els enllaços a les instruccions dels navegadors més populars:"
+  },
+  "language": {
+    "autoDetected": "Hem detectat que prefereix el català. Vols continuar amb aquest idioma?",
+    "confirm": "Sí, continuar",
+    "change": "Canviar idioma",
+    "selectLanguage": "Selecciona idioma"
+  },
+  "footer": {
+    "copyright": "Tots els drets reservats."
+  }
+}

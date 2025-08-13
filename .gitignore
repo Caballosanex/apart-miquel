@@ -401,3 +401,10 @@ FodyWeavers.xsd
 
 # Mac files
 .DS_Store
+
+#.gitignore
+.gitignore
+
+#ClaudeMD
+# Ignore ClaudeMD files
+CLAUDE.md

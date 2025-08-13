@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="CSS/estils.css">
 	<link rel="stylesheet" href="CSS/estils-movils.css">
 	<link rel="stylesheet" href="CSS/estils-apartaments.css">
+	<link rel="stylesheet" href="CSS/language.css">
 
 	<!-- Non-critical CSS loaded asynchronously -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
@@ -29,7 +30,7 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="media/casa.ico">
 
-	<title>Apartaments J.Miquel | Lloguer Apartaments Llivia</title>
+	<title data-translate="meta.title">Apartaments J.Miquel | Lloguer Apartaments Llivia</title>
 </head>
 
 <body>
@@ -60,19 +61,19 @@
 				<span></span>
 			</label>
 			<nav class="menu-items" aria-label="Menú de navegació">
-				<a href="index.html#intro">INICI</a>
-				<a href="index.html#testimonials">OPINIONS</a>
-				<a href="apartaments.html">APARTAMENTS</a>
-				<a href="aboutus.html">QUI SOM</a>
-				<a href="whereami.html">ON SOM</a>
+				<a href="index.html#intro" data-translate="navigation.home">INICI</a>
+				<a href="index.html#testimonials" data-translate="navigation.testimonials">OPINIONS</a>
+				<a href="apartaments.html" data-translate="navigation.apartments">APARTAMENTS</a>
+				<a href="aboutus.html" data-translate="navigation.about">QUI SOM</a>
+				<a href="whereami.html" data-translate="navigation.location">ON SOM</a>
 				<div class="contact-wrapper">
-					<a href="#" class="contact-trigger">CONTACTA!</a>
+					<a href="#" class="contact-trigger" data-translate="navigation.contact">CONTACTA!</a>
 					<div class="contact-submenu">
 						<a href="mailto:apartjmiquel@hotmail.com" class="contact-option email-option">
 							<div class="contact-content">
 								<div class="contact-line">
 									<span class="contact-icon">✉️</span>
-									<span class="contact-text">Via E-MAIL</span>
+									<span class="contact-text" data-translate="navigation.viaEmail">Via E-MAIL</span>
 								</div>
 								<div class="contact-detail">apartjmiquel@hotmail.com</div>
 							</div>
@@ -81,7 +82,7 @@
 							<div class="contact-content">
 								<div class="contact-line">
 									<span class="contact-icon">📞</span>
-									<span class="contact-text">Via Telèfon</span>
+									<span class="contact-text" data-translate="navigation.viaPhone">Via Telèfon</span>
 								</div>
 								<div class="contact-detail">628 605 545</div>
 							</div>
@@ -94,15 +95,15 @@
 
 	<main class="apartments-main">
 		<section class="apartments-header">
-			<h1>LA NOSTRA HISTÒRIA</h1>
-			<h2>Des de 1975 fent-vos sentir com a casa</h2>
+			<h1 data-translate="about.title">LA NOSTRA HISTÒRIA</h1>
+			<h2 data-translate="about.subtitle">Des de 1975 fent-vos sentir com a casa</h2>
 		</section>
 
 		<section class="about-sections">
 			<div class="about-section">
 				<div class="about-text">
-					<h2 class="section-title">ELS NOSTRES INICIS</h2>
-					<p class="section-text">Tot va començar el 1975 quan l'avi Miquel va decidir compartir la
+					<h2 class="section-title" data-translate="about.beginningsTitle">ELS NOSTRES INICIS</h2>
+					<p class="section-text" data-translate="about.beginningsText">Tot va començar el 1975 quan l'avi Miquel va decidir compartir la
 						bellesa de Llívia amb altres famílies. El que va començar com un petit negoci familiar s'ha
 						convertit en un referent d'allotjament a la zona, mantenint sempre l'esperit proper que ens
 						caracteritza.</p>
@@ -117,20 +118,20 @@
 					<img src="media/apartaments/apt-mbp/piscina.webp" alt="Zona comunitària" loading="lazy">
 				</div>
 				<div class="about-text">
-					<h2 class="section-title">ELS NOSTRES VALORS</h2>
+					<h2 class="section-title" data-translate="about.valuesTitle">ELS NOSTRES VALORS</h2>
 					<ul class="values-list">
-						<li>🏠 Ambient familiar i acollidor</li>
-						<li>💝 Tracte proper i personalitzat</li>
-						<li>✨ Cura pels detalls</li>
-						<li>🤝 Compromís amb els nostres clients</li>
+						<li data-translate="about.value1">🏠 Ambient familiar i acollidor</li>
+						<li data-translate="about.value2">💝 Tracte proper i personalitzat</li>
+						<li data-translate="about.value3">✨ Cura pels detalls</li>
+						<li data-translate="about.value4">🤝 Compromís amb els nostres clients</li>
 					</ul>
 				</div>
 			</div>
 
 			<div class="about-section">
 				<div class="about-text">
-					<h2 class="section-title">LA NOSTRA MISSIÓ</h2>
-					<p class="section-text">Oferir una experiència única i confortable, fent que cada estada sigui
+					<h2 class="section-title" data-translate="about.missionTitle">LA NOSTRA MISSIÓ</h2>
+					<p class="section-text" data-translate="about.missionText">Oferir una experiència única i confortable, fent que cada estada sigui
 						especial. Volem que els nostres apartaments siguin la vostra segona llar a la Cerdanya, un lloc
 						on crear records inoblidables amb la família i amics.</p>
 				</div>
@@ -144,8 +145,8 @@
 					<img src="media/apartaments/apt-troc/sala.webp" alt="Sala d'estar moderna" loading="lazy">
 				</div>
 				<div class="about-text">
-					<h2 class="section-title">QUALITAT I CONFORT</h2>
-					<p class="section-text">Tots els nostres apartaments estan completament equipats i mantinguts amb
+					<h2 class="section-title" data-translate="about.qualityTitle">QUALITAT I CONFORT</h2>
+					<p class="section-text" data-translate="about.qualityText">Tots els nostres apartaments estan completament equipats i mantinguts amb
 						cura. La nostra experiència de més de 45 anys ens permet anticipar-nos a les vostres necessitats
 						i oferir-vos tot el que necessiteu per gaudir de les vostres vacances.</p>
 				</div>
@@ -155,7 +156,7 @@
 
 	<!-- Footer -->
 	<footer>
-		<p>&copy; <span id="currentYear"></span> Apartaments J. Miquel. Tots els drets reservats.</p>
+		<p>&copy; <span id="currentYear"></span> Apartaments J. Miquel. <span data-translate="footer.copyright">Tots els drets reservats.</span></p>
 	</footer>
 
 	<!-- Sticky Footer for Social Buttons -->
@@ -177,17 +178,18 @@
 
 	<div id="cookieConsent" class="cookie-consent">
 		<div class="cookie-content">
-			<p>Utilitzem cookies per millorar la seva experiència. En continuar navegant, accepta el seu ús.</p>
+			<p data-translate="cookies.message">Utilitzem cookies per millorar la seva experiència. En continuar navegant, accepta el seu ús.</p>
 			<div class="cookie-buttons">
-				<button id="acceptCookies" class="cookie-accept" aria-label="Acceptar cookies">Acceptar</button>
-				<button id="rejectCookies" class="cookie-reject" aria-label="Rebutjar cookies">Rebutjar</button>
+				<button id="acceptCookies" class="cookie-accept" aria-label="Acceptar cookies" data-translate="cookies.accept" data-translate-aria="cookies.accept">Acceptar</button>
+				<button id="rejectCookies" class="cookie-reject" aria-label="Rebutjar cookies" data-translate="cookies.reject" data-translate-aria="cookies.reject">Rebutjar</button>
 				<button id="cookieInfo" class="cookie-info" onclick="window.location.href='cookiesinfo.html'"
-					aria-label="Més informació sobre cookies">Més info</button>
+					aria-label="Més informació sobre cookies" data-translate="cookies.moreInfo" data-translate-aria="cookies.moreInfo">Més info</button>
 			</div>
 		</div>
 	</div>
 
 	<!-- Load JavaScript asynchronously -->
+	<script src="js/language.js" defer></script>
 	<script src="js/header&cookies.js" defer></script>
 	<script src="js/about-animations.js" defer></script>
 
